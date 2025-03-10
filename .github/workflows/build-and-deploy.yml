@@ -50,12 +50,6 @@ jobs:
       - name: Create CNAME file
         run: echo "sonalimichal.com" > ./dist/CNAME
 
-      - name: List directory contents after build
-        run: ls -la
-
-      - name: List dist directory contents (if it exists)
-        run: ls -la dist || echo "dist directory not found"
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
@@ -72,6 +66,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
+
+      - name: List directory contents after build
+        run: ls -la
 
       - name: Deploy to GitHub Pages
         id: deployment
