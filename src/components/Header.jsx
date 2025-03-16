@@ -5,8 +5,10 @@ export function Header({ setLanguage }) {
 	return (
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-between gap-2 px-4">
-				<div className="bg-white p-2 rounded-3xl m-2">
-					<p className="text-4xl md:text-4xl font-[ephesis] p-2 text-black dark:text-white">Sonali & Michał</p>
+				<div className="m-2">
+					<p className="text-4xl md:text-4xl font-[ephesis] p-2 text-black dark:text-white bg-white rounded-3xl">
+						Sonali & Michał
+					</p>
 				</div>
 				<div className="hidden md:flex">
 					<LanguageSelector setLanguage={setLanguage} />

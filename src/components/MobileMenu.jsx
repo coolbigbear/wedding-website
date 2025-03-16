@@ -23,10 +23,6 @@ export function MobileMenu({ children }) {
 				<div className="flex h-full flex-col justify-between">
 					<div className="mt-8 flex flex-col gap-4">{children}</div>
 					<div className="flex items-center">
-						<Button variant="ghost" size="icon" className="flex right-4 top-4" onClick={() => setOpen(false)}>
-							<X className="h-5 w-5" />
-							<span className="sr-only">Close menu</span>
-						</Button>
 					</div>
 				</div>
 			</SheetContent>
