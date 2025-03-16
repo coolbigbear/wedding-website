@@ -1,13 +1,6 @@
 import { useState } from 'react';
 import Hero from './components/Hero';
-import Countdown from './components/Countdown';
-import Itinerary from './components/Itinerary';
-import CulturalInfo from './components/CulturalInfo';
-import CallToAction from './components/CallToAction';
-import LanguageSelector from './components/LanguageSelector';
-import ExpandableList from './components/ExpandableList';
 import ExpandableListV2 from './components/ExpandableListV2';
-import Footer from './components/Footer';
 import { translations } from './translations';
 import { Header } from './components/Header';
 
@@ -19,36 +12,6 @@ const App = () => {
 			{/* Language Selector */}
 			<Header setLanguage={setLanguage}/>
 			<Hero t={t} />
-			<ExpandableList
-				items={[
-					{
-						id: 'profile',
-						title: 'Profile',
-						content: <div className="space-y-4">test</div>,
-					},
-					{
-						id: 'billing',
-						title: 'Billing',
-						content: <div className="space-y-4">test</div>,
-					},
-					{
-						id: 'notifications',
-						title: 'Notifications',
-						content: <div className="space-y-4">test</div>,
-					},
-					{
-						id: 'security',
-						title: 'Security',
-						content: <div className="space-y-4">test</div>,
-					},
-					{
-						id: 'help',
-						title: 'Help & Support',
-						content: <div className="space-y-4">test</div>,
-					},
-				]}
-				defaultSelectedId="profile"
-			/>
 			<ExpandableListV2 data={[
 					{
 						name: 'Notifications',

@@ -1,20 +1,13 @@
 'use client';
-import {
-	Breadcrumb,
-	BreadcrumbItem,
-	BreadcrumbLink,
-	BreadcrumbList,
-	BreadcrumbPage,
-	BreadcrumbSeparator,
-} from '@/components/ui/breadcrumb';
-import { Separator } from '@/components/ui/separator';
 import LanguageSelector from './LanguageSelector';
 import { MobileMenu } from './MobileMenu';
 export function Header({ setLanguage }) {
 	return (
-		<header className="flex sticky top-0 z-50 w-full items-center border-b bg-background">
+		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-between gap-2 px-4">
-				<p className="text-5xl md:text-5xl font-[ephesis] p-2">Sonali & Michal</p>
+				<div className="bg-white p-2 rounded-3xl m-2">
+					<p className="text-5xl md:text-4xl font-[ephesis] p-2 text-black dark:text-white">Sonali & Michal</p>
+				</div>
 				<div className="hidden md:flex">
 					<LanguageSelector setLanguage={setLanguage} />
 				</div>

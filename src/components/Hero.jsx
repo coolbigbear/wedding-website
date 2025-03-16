@@ -1,10 +1,9 @@
 import React from 'react';
 import weddingImage from '../assets/taj-split.jpg';
 
-
 const Hero = ({ t }) => {
 	return (
-		<div className="relative h-screen w-screen flex items-center justify-center text-center bg-rose-50">
+		<div className="h-screen w-full flex items-center text-center">
 			<div
 				className="absolute inset-0 bg-cover bg-center opacity-60 flex"
 				style={{ backgroundImage: `url(${weddingImage})` }}
