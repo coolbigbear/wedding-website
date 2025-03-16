@@ -15,9 +15,9 @@ export function Header({ setLanguage }) {
 				<LanguageSelector setLanguage={setLanguage} />
 				<div className="flex md:hidden">
 					<MobileMenu>
-						<p href="/about" className="px-2 py-1">
-							About
-						</p>
+						<a href="/about" className="px-2 py-1">
+							About us
+						</a>
 					</MobileMenu>
 				</div>
 			</div>

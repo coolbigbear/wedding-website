@@ -1,50 +1,28 @@
-import { useState } from 'react';
-import Hero from './components/Hero';
-import ExpandableListV2 from './components/ExpandableListV2';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Layout from './components/pages/Layout';
+import Home from './components/pages/Home';
+import About from './components/pages/about';
+import { createContext, useState } from 'react';
 import { translations } from './translations';
-import { Header } from './components/Header';
+
+export const LanguageContext = createContext('english');
 
 const App = () => {
 	const [language, setLanguage] = useState('english');
 	const t = translations[language];
 	return (
-		<div className="flex flex-col bg-white font-serif">
-			{/* Language Selector */}
-			<Header setLanguage={setLanguage}/>
-			<Hero t={t} />
-			<ExpandableListV2 data={[
-					{
-						name: 'Notifications',
-						content: 'Configure how you receive notifications and alerts from the system.',
-					},
-					{
-						name: 'Navigation',
-						content: 'Customize the navigation menu and sidebar appearance to your preference.',
-					},
-					{
-						name: 'Home',
-						content: 'Adjust your home screen layout and widget preferences.',
-					},
-					{
-						name: 'Appearance',
-						content: 'Change themes, colors, and visual elements throughout the interface.',
-					},
-					{
-						name: 'Messages',
-						content: 'Manage your messaging preferences, notifications, and privacy settings.',
-					},
-					{
-						name: 'Language',
-						content: 'Select your preferred language and regional settings.',
-					},
-			]}
-			/>
-			{/* <Countdown t={t} />
-			<Itinerary t={t} />
-			<CulturalInfo t={t} />
-			<CallToAction t={t} />
-			<Footer /> */}
-		</div>
+		<LanguageContext.Provider value={{ language: t, setLanguage: setLanguage }}>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Layout />}>
+						<Route index element={<Home />} />
+						<Route path="about" element={<About />} />
+						{/* <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+					</Route>
+				</Routes>
+			</BrowserRouter>
+		</LanguageContext.Provider>
 	);
 };
 
