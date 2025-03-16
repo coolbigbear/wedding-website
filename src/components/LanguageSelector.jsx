@@ -3,7 +3,7 @@ import { Globe } from 'lucide-react';
 
 const LanguageSelector = ({ setLanguage }) => {
 	return (
-		<div className="fixed top-4 right-4 z-50 bg-white bg-opacity-80 rounded-full shadow-md p-2">
+		<div className="bg-white bg-opacity-80 rounded-full p-2 flex justify-center items-center">
 			<Tabs defaultValue="english" onValueChange={setLanguage}>
 				<TabsList className="grid w-full grid-cols-4">
 					<TabsTrigger value="english" className="text-sm">
