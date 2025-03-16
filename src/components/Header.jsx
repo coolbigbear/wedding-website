@@ -6,7 +6,7 @@ import { MobileMenu } from './MobileMenu';
 export function Header({ setLanguage }) {
 	return (
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
-			<div className="flex h-fit w-full justify-between gap-2 px-4">
+			<div className="flex h-fit w-full justify-around  md:justify-between gap-2 px-4">
 				<div className="flex m-2">
 					<Button variant="ghost" size="icon">
 						<Home className="h-5 w-5" />

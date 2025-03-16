@@ -3,7 +3,7 @@ import weddingImage from '../assets/taj-split.jpg';
 
 const Hero = ({ t }) => {
 	return (
-		<div className="h-screen w-full flex items-center text-center">
+		<div className="h-screen w-screen flex items-center text-center">
 			<div
 				className="absolute inset-0 bg-cover bg-center opacity-60 flex"
 				style={{ backgroundImage: `url(${weddingImage})` }}
