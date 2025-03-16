@@ -1,7 +1,7 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Layout from './components/pages/Layout';
 import Home from './components/pages/Home';
-import About from './components/pages/about';
+
 import { createContext, useState } from 'react';
 import { translations } from './translations';
 
