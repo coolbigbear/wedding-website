@@ -1,18 +1,17 @@
 export const translations = {
     english: {
-        title: "Sonali & Michal's Wedding",
+        title: "Sonali & Michał",
         date: "April 28, 2025",
-        countdown: {
-            title: "Countdown to Our Special Day",
-            days: "Days",
-            hours: "Hours",
-            minutes: "Minutes",
-            seconds: "Seconds"
-        },
         hero: {
-            invitation: "You are cordially invited to celebrate our wedding",
-            details: "Monday, April 28, 2025 • Hedsor House • Taplow, United Kingdom"
+            invitation: "You are cordially invited to celebrate our Civil Ceremony and Reception",
+            date: "Monday, April 28, 2025",
+            details: "Hedsor House • Taplow, United Kingdom"
         },
+        homeCards: [
+            { title: "Our story", imageUrl:"/src/assets/images/big-weekend.jpeg"},
+            { title: "Other events", imageUrl:"/src/assets/images/attire.jpeg"},
+            { title: "Attire", imageUrl:"/src/assets/images/attire.jpeg"}
+        ],
         itinerary: {
             title: "Wedding Schedule",
             ceremony: {

@@ -27,8 +27,8 @@ export default function AccordionDemo({ data }) {
 	};
 
 	return (
-		<div className="mx-auto w-full">
-			<div className="mx-auto w-5/6 md:hidden">
+		<div className="w-full">
+			<div className="w-5/6 md:hidden">
 				<Accordion type="multiple" collapsible="true" className="border-b md:border-b-0 md:border-r">
 					<AccordionItem value="item-1">
 						<AccordionTrigger>Is it accessible?</AccordionTrigger>
@@ -52,7 +52,7 @@ export default function AccordionDemo({ data }) {
 					</AccordionItem>
 				</Accordion>
 			</div>
-			<div className="mx-auto w-5/6 hidden md:flex h-[50vh] rounded-lg border overflow-hidden">
+			<div className="w-5/6 hidden md:flex h-[50vh] rounded-lg border overflow-hidden">
 				<SidebarProvider className="items-start">
 					<Sidebar collapsible="none">
 						<SidebarContent>
