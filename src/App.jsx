@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/pages/Layout';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -14,7 +14,7 @@ const App = () => {
 	const t = translations[language];
 	return (
 		<LanguageContext.Provider value={{ language: t, setLanguage: setLanguage }}>
-			<BrowserRouter basename={import.meta.env.BASE_URL}>
+			<HashRouter basename={import.meta.env.BASE_URL}>
 				<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<Home />} />
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="*" element={<NoPage />} /> */}
 					</Route>
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</LanguageContext.Provider>
 	);
 };

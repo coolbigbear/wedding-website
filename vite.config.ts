@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	plugins: [react()],
-	base: '/', // Use '/' for root domain deployments
+	base: '/',
 	resolve: {
 		alias: {
 			'@': path.resolve(__dirname, './src'),

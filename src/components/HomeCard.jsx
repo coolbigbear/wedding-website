@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function HomeCard({ title, imageUrl, delay, link }) {
 	const [isVisible, setIsVisible] = useState(false);
@@ -36,12 +37,12 @@ export default function HomeCard({ title, imageUrl, delay, link }) {
 				${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} 
 				hover:scale-[1.01] hover:shadow-lg bg-[image:var(--image-url)] bg-center`}
 			style={{ '--image-url': `url(${imageUrl})` }}>
-			<a href={`${link}`}>
+			<Link to={link}>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-90 transition-opacity duration-300 hover:opacity-100"></div>
 				<div className="absolute bottom-0 left-0 right-0 p-4 transition-transform duration-300 ease-out hover:translate-y-[-5px]">
 					<h2 className="xl:text-6xl text-5xl font-semibold text-white">{title}</h2>
 				</div>
-			</a>
+			</Link>
 		</div>
 	);
 }
