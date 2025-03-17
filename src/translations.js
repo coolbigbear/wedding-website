@@ -12,6 +12,19 @@ export const translations = {
             { title: "Other events", imageUrl: "/images/other.jpeg", link: "/events" },
             { title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" }
         ],
+        attire: {
+            title: "Attire",
+            subtitle: "What should I wear?",
+            description: "We gathered mood boards to inspire your outfits for the wedding events, but please wear whatever makes you feel most comfortable, and beautiful.",
+            events: [
+                {
+                    eventTitle: "event 1",
+                    eventDressCode: "dress code 1",
+                    eventDescription: "some big description"
+                }
+            ]
+
+        },
         itinerary: {
             title: "Wedding Schedule",
             ceremony: {
@@ -54,9 +67,7 @@ export const translations = {
                 title: "Dress Code",
                 details: "Formal attire. Feel free to wear traditional Polish or Indian outfits!"
             }
-        },
-        rsvp: "RSVP Now",
-        gifts: "Gift Registry"
+        }
     },
     polish: {
         title: "Ślub Anny i Raja",
