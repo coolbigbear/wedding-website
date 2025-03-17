@@ -9,7 +9,7 @@ export const translations = {
         },
         homeCards: [
             { title: "Our story", imageUrl:"/images/big-weekend.jpeg"},
-            { title: "Other events", imageUrl:"/images/attire.jpeg"},
+            { title: "Other events", imageUrl:"/images/other.jpeg"},
             { title: "Attire", imageUrl:"/images/attire.jpeg"}
         ],
         itinerary: {

@@ -33,9 +33,9 @@ const Home = () => {
 	return (
 		<div className="flex flex-col bg-white font-serif">
 			<Hero />
-			<div className="flex flex-col text-center mx-32">
-				<h1 className="text-4xl pb-14">{language.hero.invitation}</h1>
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<h1 className="text-4xl pb-14 mx-4 text-center">{language.hero.invitation}</h1>
+			<div className="flex flex-col text-center 2xl:mx-32 mx-4">
+				<div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
 					{/* Left Column */}
 					<div className="space-y-6">
 						{getLeftColumn(language.homeCards)}
