@@ -14,7 +14,7 @@ const App = () => {
 	const t = translations[language];
 	return (
 		<LanguageContext.Provider value={{ language: t, setLanguage: setLanguage }}>
-			<BrowserRouter>
+			<BrowserRouter basename={import.meta.env.BASE_URL}>
 				<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<Home />} />
