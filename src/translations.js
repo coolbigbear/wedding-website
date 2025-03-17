@@ -8,9 +8,9 @@ export const translations = {
             details: "Hedsor House • Taplow, United Kingdom"
         },
         homeCards: [
-            { title: "Our story", imageUrl:"/src/assets/images/big-weekend.jpeg"},
-            { title: "Other events", imageUrl:"/src/assets/images/attire.jpeg"},
-            { title: "Attire", imageUrl:"/src/assets/images/attire.jpeg"}
+            { title: "Our story", imageUrl:"/images/big-weekend.jpeg"},
+            { title: "Other events", imageUrl:"/images/attire.jpeg"},
+            { title: "Attire", imageUrl:"/images/attire.jpeg"}
         ],
         itinerary: {
             title: "Wedding Schedule",

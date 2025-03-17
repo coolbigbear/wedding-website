@@ -5,8 +5,8 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'hero': "url('/src/assets/images/taj-split.jpg')",
-				'hero-hoz': "url('/src/assets/images/taj-split-hoz.jpg')",
+				'hero': "url('/images/taj-split.jpg')",
+				'hero-hoz': "url('/images/taj-split-hoz.jpg')",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
