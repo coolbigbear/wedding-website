@@ -3,6 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 import { translations } from '../../translations';
 import { Header } from '../Header';
 import { LanguageContext } from '../../App';
+import Footer from '../Footer';
 
 const Layout = () => {
 	const { setLanguage } = useContext(LanguageContext)
@@ -10,6 +11,7 @@ const Layout = () => {
 		<>
 			<Header setLanguage={setLanguage} />
 			<Outlet />
+			<Footer/>
 		</>
 	);
 };

@@ -3,9 +3,6 @@ import HomeCard from "../HomeCard";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../../App";
 
-
-
-
 const Home = () => {
 
 	const { language } = useContext(LanguageContext)
@@ -14,7 +11,7 @@ const Home = () => {
 		let delay = 100;
 		for (let i = 0; i < homeCards.length; i=i+2) {
 			const item = homeCards[i];
-			content.push(<HomeCard key={i} title={item.title} imageUrl={item.imageUrl} delay={delay * i} />);
+			content.push(<HomeCard key={i} title={item.title} imageUrl={item.imageUrl} delay={delay * i} link={item.link} />);
 		}
 		return content;
   	};
@@ -24,7 +21,7 @@ const Home = () => {
 		for (let i = 1; i < homeCards.length; i=i+2) {
 			const item = homeCards[i];
 			content.push(
-				<HomeCard key={i} title={item.title} imageUrl={item.imageUrl} delay={delay*i} />
+				<HomeCard key={i} title={item.title} imageUrl={item.imageUrl} delay={delay*i} link={item.link} />
 			);
 		}
 		return content;
@@ -32,8 +29,8 @@ const Home = () => {
 
 	return (
 		<div className="flex flex-col bg-white font-serif">
-			<Hero />
-			<h1 className="text-4xl pb-14 mx-4 text-center">{language.hero.invitation}</h1>
+			<Hero homepage={true}/>
+			<h1 className="text-4xl pb-14 mx-4 text-center text-black">{language.hero.invitation}</h1>
 			<div className="flex flex-col text-center 2xl:mx-32 mx-4">
 				<div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
 					{/* Left Column */}

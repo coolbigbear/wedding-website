@@ -8,16 +8,18 @@ export function Header({ setLanguage }) {
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-around  md:justify-between gap-2 px-4">
 				<div className="flex m-2">
-					<Button variant="ghost" size="icon">
-						<Home className="h-5 w-5" />
-					</Button>
+					<a href="/">
+						<Button variant="ghost" size="icon" className="text-black">
+							<Home className="h-5 w-5" />
+						</Button>
+					</a>
 				</div>
 				<LanguageSelector setLanguage={setLanguage} />
 				<div className="flex md:hidden">
 					<MobileMenu>
-						<a href="/about" className="px-2 py-1">
+						<p href="/about" className="px-2 py-1">
 							About us
-						</a>
+						</p>
 					</MobileMenu>
 				</div>
 			</div>
