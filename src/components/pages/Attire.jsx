@@ -9,7 +9,7 @@ const Attire = () => {
 	return (
 		<div className="flex flex-col bg-white font-serif">
 			<div className={`h-1/2 w-full flex text-center`}>
-				<div className="flex flex-col bg-amber-900 w-screen py-4 mt-[10vh]">
+				<div className="flex flex-col bg-amber-900 w-screen py-4 mt-[5dvh]">
 					<h1 className="text-5xl md:text-7xl text-white animate-fade-in-down font-[ephesis] outline-black">
 						{language.attire.title}
 					</h1>
