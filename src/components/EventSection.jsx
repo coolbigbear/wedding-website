@@ -29,10 +29,6 @@ export default function EventSection({ title, description, images }) {
 							{images.map((image, index) => (
 								<CarouselItem className="basis-3/5 h-[45vh]" key={index}>
 									<div key={index} className={`w-full h-full flex items-center justify-center`}>
-										{/* <div
-											className="max-h-full max-w-full w-full h-full bg-no-repeat bg-contain rounded-xl overflow-hidden bg-[image:var(--image-url)]"
-											style={{ '--image-url': `url(${image})` }}
-										/> */}
 										<img
 											src={image}
 											alt={`${title} image ${index + 1}`}
