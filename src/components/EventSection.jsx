@@ -39,7 +39,7 @@ export default function EventSection({ title, description, images }) {
 					<h2 className="text-3xl font-medium text-center mb-10 bg-amber-900 text-white py-2">{title}</h2>
 					<div className="text-lg mx-10">{description}</div>
 				</div>
-				<div className="md:w-1/2 h-full">{carousel}</div>
+				<div className="md:w-1/2 h-full mx-10">{carousel}</div>
 			</div>
 		</div>
 	);
