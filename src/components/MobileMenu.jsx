@@ -21,9 +21,10 @@ export function MobileMenu({ children }) {
 			</SheetTrigger>
 			<SheetContent side="right" className="w-[240px] sm:w-[300px]">
 				<div className="flex h-full flex-col justify-between">
-					<div className="mt-8 flex flex-col gap-4">{children}</div>
-					<div className="flex items-center">
+					<div className="mt-8 flex flex-col gap-4">
+						<SheetTrigger asChild>{children}</SheetTrigger>
 					</div>
+					<div className="flex items-center"></div>
 				</div>
 			</SheetContent>
 		</Sheet>

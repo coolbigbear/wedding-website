@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import EventSection from "../EventSection";
-import Hero from "../Hero";
 import { LanguageContext } from "../../App";
 
 const Attire = () => {
