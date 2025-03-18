@@ -18,7 +18,7 @@ const Attire = () => {
 					</div>
 				</div>
 			</div>
-			<h1 className="text-2xl pb-14 md:mx-40 mx-4 text-center text-black mt-32">{language.attire.description}</h1>
+			<h1 className="text-2xl md:mx-40 mx-4 text-center text-black my-8">{language.attire.description}</h1>
 			<div className="flex flex-col 2xl:mx-32">
 				{language.attire.events.map((eventObj, index) => (
 					<EventSection
