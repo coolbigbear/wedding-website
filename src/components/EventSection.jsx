@@ -36,12 +36,10 @@ export default function EventSection({ title, description, images }) {
 		<div className="mb-20 h-full">
 			<div className="flex flex-col md:flex-row md:gap-10 h-full">
 				<div className="flex flex-col md:justify-center md:w-1/2 mb-8 md:mb-0">
-					<h2 className="text-3xl font-medium text-center mb-10">{title}</h2>
+					<h2 className="text-3xl font-medium text-center mb-10 bg-amber-900 text-white py-2">{title}</h2>
 					<div className="text-lg mx-10">{description}</div>
 				</div>
-				<div className="md:w-1/2 h-full">
-					{carousel}
-				</div>
+				<div className="md:w-1/2 h-full">{carousel}</div>
 			</div>
 		</div>
 	);
