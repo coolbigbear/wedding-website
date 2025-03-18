@@ -51,47 +51,18 @@ export const translations = {
 
         },
         itinerary: {
-            title: "Wedding Schedule",
-            ceremony: {
-                title: "Ceremony",
-                time: "11:00 AM",
-                details: "Traditional Polish ceremony followed by Sikh rituals"
-            },
-            photos: {
-                title: "Photos",
-                time: "12:30 PM",
-                details: "Family photos in the garden"
-            },
-            reception: {
-                title: "Reception",
-                time: "2:00 PM",
-                details: "Cocktails and hors d'oeuvres"
-            },
-            dinner: {
-                title: "Dinner",
-                time: "5:00 PM",
-                details: "Fusion Polish and Indian cuisine"
-            },
-            dancing: {
-                title: "Dancing",
-                time: "7:00 PM",
-                details: "Music and celebration until midnight"
-            }
-        },
-        culturalInfo: {
-            title: "Cultural Elements",
-            polishTraditions: {
-                title: "Polish Wedding Traditions",
-                details: "Traditional bread and salt greeting, sharing of vodka glasses, first dance polonaise"
-            },
-            indianTraditions: {
-                title: "Indian Wedding Traditions",
-                details: "Mehndi celebration, Sangeet night, Baraat procession, Anand Karaj ceremony"
-            },
-            dresscode: {
-                title: "Dress Code",
-                details: "Formal attire. Feel free to wear traditional Polish or Indian outfits!"
-            }
+            title: "Order of the day",
+            events: [
+                { time: "02:00 PM", title: "Guests arrive at Hedsor House", icon: "Clock" },
+                { time: "2.30pm", title: "Civil Ceremony to start", icon: "Clock" },
+                { time: "3.30pm", title: "Drinks Reception", icon: "Clock" },
+                { time: "5.00pm", title: "Guests to take their seats in Ballroom", icon: "Clock" },
+                { time: "6.15pm", title: "Speeches Start", icon: "Clock" },
+                { time: "8.15pm", title: "Cake Cutting", icon: "Clock" },
+                { time: "8.30pm", title: "First Dance", icon: "Clock" },
+                { time: "8.30pm", title: "PARTY", icon: "Clock" },
+                { time: "11.30pm", title: "Guests go home", icon: "Clock" },
+            ]
         }
     },
     polish: {

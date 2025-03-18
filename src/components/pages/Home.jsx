@@ -1,5 +1,6 @@
 import Hero from "../Hero";
 import HomeCard from "../HomeCard";
+import Timeline from "../Timeline";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../../App";
 
@@ -31,6 +32,7 @@ const Home = () => {
 		<div className="flex flex-col bg-white font-serif">
 			<Hero homepage={true}/>
 			<h1 className="text-4xl pb-14 mx-4 text-center text-black">{language.hero.invitation}</h1>
+			<Timeline itinerary={language.itinerary}/>
 			<div className="flex flex-col text-center 2xl:mx-32 mx-4">
 				<div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
 					{/* Left Column */}

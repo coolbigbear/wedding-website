@@ -8,7 +8,7 @@ const Hero = ({ title, subtitle, homepage }) => {
 		<div
 			className={`
 				${homepage == true ? 'h-dvh' : 'h-1/2'}
-				w-full flex text-center align-top`}>
+				w-full max-h-full flex text-center align-top`}>
 			{homepage == true ? <div className={`absolute inset-0 bg-cover md:bg-cover bg-center bg-no-repeat flex bg-hero md:bg-hero-hoz`} /> : '' }
 			<div className="z-10 px-4 max-w-4xl mx-auto mt-[15dvh] md:pt-[5vh]">
 				<h1 className="text-5xl md:text-7xl text-amber-800 animate-fade-in-down font-[ephesis] outline-black">
