@@ -7,7 +7,7 @@ const Hero = ({ title, subtitle, homepage }) => {
 	return (
 		<div
 			className={`
-				${homepage == true ? 'h-screen' : 'h-1/2'}
+				${homepage == true ? 'h-dvh' : 'h-1/2'}
 				w-full flex text-center align-top`}>
 			{homepage == true ? <div className={`absolute inset-0 bg-cover md:bg-cover bg-center bg-no-repeat flex bg-hero md:bg-hero-hoz`} /> : '' }
 			<div className="z-10 px-4 max-w-4xl mx-auto mt-[15vh] md:pt-[5vh]">
