@@ -15,16 +15,16 @@ const WeddingTimeline = ({ itinerary }) => {
 	};
 
 	return (
-		<div className='flex w-full flex-col items-center py-4 mb-4 overflow-hidden bg-amber-900'>
+		<div className='flex w-full flex-col items-center pb-14 overflow-hidden'>
 			<div className="max-w-4xl rounded-lg w-full flex flex-col">
-				<h2 className="text-3xl text-center mb-8 text-white">{ itinerary.title }</h2>
+				<h2 className="text-3xl text-center mb-8 text-black">{ itinerary.title }</h2>
 
 				<div className="relative">
 					{/* Main timeline vertical line */}
-					<div className="absolute left-1/2 top-6 md:bottom-4 bottom-8 w-1 bg-white transform -translate-x-1/2"></div>
+					<div className="absolute left-1/2 top-6 md:bottom-4 bottom-8 w-1 bg-amber-900 transform -translate-x-1/2"></div>
 
 					{/* Timeline events */}
-					<div className="space-y-8 mx-2">
+					<div className="space-y-8 mx-2 overflow-hidden">
 						{itinerary.events.map((event, index) => {
 							const isEven = index % 2 === 0;
 
@@ -38,10 +38,10 @@ const WeddingTimeline = ({ itinerary }) => {
 									{/* Icon circle and connector line */}
 									<div className="absolute left-1/2 transform -translate-x-1/2 z-0 translate-y-1/2">
 										{/* Horizontal connector line */}
-										<div className={`absolute top-5 h-1 border-dotted border-t-4 border-white w-[400%] ${isEven ? 'right-9' : 'left-9'}`}></div>
+										<div className={`absolute top-5 h-1 border-dotted border-t-4 border-amber-900 w-[40vw] ${isEven ? 'right-9' : 'left-9'}`}></div>
 
 										{/* Icon circle */}
-										<div className="w-10 h-10 rounded-full bg-white flex items-center justify-center border-4 border-white">
+										<div className="w-10 h-10 rounded-full bg-white flex items-center justify-center border-4 border-amber-900">
 											<div className="text-amber-900">{iconMap[event.icon]}</div>
 										</div>
 									</div>

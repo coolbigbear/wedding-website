@@ -3,7 +3,7 @@ export const translations = {
         title: "Sonali & Michał",
         date: "April 28, 2025",
         hero: {
-            invitation: "You are cordially invited to celebrate our Civil Ceremony and Reception",
+            invitation: "You are cordially invited to celebrate our Civil Ceremony and Reception at Hedsor House",
             date: "Monday, April 28, 2025",
             details: "Hedsor House • Taplow, United Kingdom"
         },
