@@ -13,7 +13,7 @@ export function MobileMenu({ children }) {
 		<Sheet open={open} onOpenChange={setOpen}>
 			<SheetTrigger asChild>
 				<div className="flex items-center">
-					<Button variant="ghost" size="icon" className="md:hidden">
+					<Button variant="ghost" size="icon" className="md:hidden w-11 h-11">
 						<Menu className="h-5 w-5" />
 						<span className="sr-only">Toggle menu</span>
 					</Button>
