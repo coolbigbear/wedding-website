@@ -21,10 +21,10 @@ const WeddingTimeline = ({ itinerary }) => {
 
 				<div className="relative">
 					{/* Main timeline vertical line */}
-					<div className="absolute left-1/2 top-6 bottom-8 w-2 bg-amber-900 transform -translate-x-1/2"></div>
+					<div className="absolute left-1/2 top-6 bottom-0 mb-14 w-2 bg-amber-900 transform -translate-x-1/2"></div>
 
 					{/* Timeline events */}
-					<div className="space-y-8 mx-2 pb-2 overflow-hidden">
+					<div className="md:space-y-8  mx-2 pb-2 overflow-hidden">
 						{itinerary.events.map((event, index) => {
 							const isEven = index % 2 === 0;
 
