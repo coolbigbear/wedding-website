@@ -15,16 +15,16 @@ const WeddingTimeline = ({ itinerary }) => {
 	};
 
 	return (
-		<div className='flex w-full flex-col items-center pb-14 overflow-hidden'>
+		<div className='flex w-full flex-col items-center mb-14 overflow-hidden'>
 			<div className="max-w-4xl rounded-lg w-full flex flex-col">
 				<h2 className="text-3xl text-center mb-8 text-black">{ itinerary.title }</h2>
 
 				<div className="relative">
 					{/* Main timeline vertical line */}
-					<div className="absolute left-1/2 top-6 md:bottom-4 bottom-8 w-1 bg-amber-900 transform -translate-x-1/2"></div>
+					<div className="absolute left-1/2 top-6 bottom-8 w-2 bg-amber-900 transform -translate-x-1/2"></div>
 
 					{/* Timeline events */}
-					<div className="space-y-8 mx-2 overflow-hidden">
+					<div className="space-y-8 mx-2 pb-2 overflow-hidden">
 						{itinerary.events.map((event, index) => {
 							const isEven = index % 2 === 0;
 

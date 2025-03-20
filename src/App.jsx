@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import { createContext, useLayoutEffect, useState } from 'react';
 import { translations } from './translations';
 import Attire from './components/pages/Attire';
+import Events from './components/pages/Events';
 
 export const LanguageContext = createContext('english');
 
@@ -29,6 +30,7 @@ const App = () => {
 							<Route index element={<Home />} />
 							<Route path="about" element={<About />} />
 							<Route path="attire" element={<Attire />} />
+							<Route path="events" element={<Events />} />
 							{/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
 						</Route>

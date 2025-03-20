@@ -3,7 +3,7 @@
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import Autoscroll from 'embla-carousel-auto-scroll';
 
-export default function EventSection({ title, description, images }) {
+export default function EventSection({ title, description, images, bgcolor, flowDirection="flex-row" }) {
 	const carousel = (
 		<Carousel
 			opts={{
@@ -17,7 +17,7 @@ export default function EventSection({ title, description, images }) {
 			]}
 			className="h-full">
 			<CarouselContent className="-ml-4 h-full">
-				{images.map((image, index) => (
+				{images && images.map((image, index) => (
 					<CarouselItem className="basis-auto h-[45vh]" key={index}>
 						<div key={index} className={`w-full h-full flex items-center justify-center`}>
 							<img
@@ -34,9 +34,9 @@ export default function EventSection({ title, description, images }) {
 
 	return (
 		<div className="mb-20 h-full">
-			<div className="flex flex-col md:flex-row md:gap-10 h-full">
-				<div className="flex flex-col md:justify-center md:w-1/2 mb-8 md:mb-0">
-					<h2 className="text-3xl font-medium text-center mb-10 bg-amber-900 text-white py-2">{title}</h2>
+			<div className={`flex flex-col md:${flowDirection} md:gap-10 h-full`}>
+				<div className="flex flex-col md:w-1/2 mb-8 md:mb-0">
+					<h2 className={`text-3xl font-medium text-center mb-10 ${bgcolor} text-white py-2`}>{title}</h2>
 					<div className="text-lg mx-10">{description}</div>
 				</div>
 				<div className="md:w-1/2 h-full mx-10">{carousel}</div>
