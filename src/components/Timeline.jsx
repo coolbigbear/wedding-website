@@ -21,7 +21,7 @@ const WeddingTimeline = ({ itinerary }) => {
 
 				<div className="relative">
 					{/* Main timeline vertical line */}
-					<div className="absolute left-1/2 top-6 bottom-0 mb-[8dvh] w-2 bg-amber-900 transform -translate-x-1/2"></div>
+					<div className="absolute left-1/2 top-6 bottom-0 mb-[8rem] w-2 bg-amber-900 transform -translate-x-1/2"></div>
 
 					{/* Timeline events */}
 					<div className="md:space-y-8  mx-2 pb-2 overflow-hidden">
