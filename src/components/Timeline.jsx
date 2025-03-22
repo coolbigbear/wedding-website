@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Clock, Heart, Camera, Gift, Utensils, Music, Wine } from 'lucide-react';
+import { Clock, Heart, Camera, Gift, Utensils, Music, Wine, Car, Clock2, CarFront, PartyPopper, MessageCircleHeart, CakeSlice } from 'lucide-react';
 import TimelineCard from './TimelineCard';
 
 const WeddingTimeline = ({ itinerary }) => {
@@ -40,13 +40,15 @@ const WeddingTimeline = ({ itinerary }) => {
 
 	// Map string icon names to components
 	const iconMap = {
-		Clock: <Clock size={24} />,
+		Clock: <Clock2 size={24} />,
 		Heart: <Heart size={24} />,
-		Camera: <Camera size={24} />,
-		Gift: <Gift size={24} />,
-		Utensils: <Utensils size={24} />,
-		Music: <Music size={24} />,
 		Wine: <Wine size={24} />,
+		Utensils: <Utensils size={24} />,
+		Speech: <MessageCircleHeart size={24} />,
+		Cake: <CakeSlice size={24} />,
+		Music: <Music size={24} />,
+		Party: <PartyPopper size={24} />,
+		Car: <CarFront size={24} />,
 	};
 
 	const heightToMatch = useMatchHeight('timeline', 'timeline-card');

@@ -10,7 +10,8 @@ export const translations = {
         homeCards: [
             { title: "Our story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { title: "Other events", imageUrl: "/images/other.jpeg", link: "/events" },
-            { title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" }
+            { title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
+            { title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
         ],
         attire: {
             title: "Attire",
@@ -54,14 +55,14 @@ export const translations = {
             title: "Order of the day",
             events: [
                 { time: "02:00 PM", title: "Guests arrive at Hedsor House", icon: "Clock" },
-                { time: "2.30pm", title: "Civil Ceremony to start", icon: "Clock" },
-                { time: "3.30pm", title: "Drinks Reception", icon: "Clock" },
-                { time: "5.00pm", title: "Guests to take their seats in Ballroom", icon: "Clock" },
-                { time: "6.15pm", title: "Speeches Start", icon: "Clock" },
-                { time: "8.15pm", title: "Cake Cutting", icon: "Clock" },
-                { time: "8.30pm", title: "First Dance", icon: "Clock" },
-                { time: "8.30pm", title: "PARTY", icon: "Clock" },
-                { time: "11.30pm", title: "Guests go home", icon: "Clock" },
+                { time: "2.30pm", title: "Civil Ceremony to start", icon: "Heart" },
+                { time: "3.30pm", title: "Drinks Reception", icon: "Wine" },
+                { time: "5.00pm", title: "Guests to take their seats in Ballroom", icon: "Utensils" },
+                { time: "6.15pm", title: "Speeches Start", icon: "Speech" },
+                { time: "8.15pm", title: "Cake Cutting", icon: "Cake" },
+                { time: "8.30pm", title: "First Dance", icon: "Music" },
+                { time: "8.30pm", title: "PARTY", icon: "Party" },
+                { time: "11.30pm", title: "Guests go home", icon: "Car" },
             ]
         },
         events: {
