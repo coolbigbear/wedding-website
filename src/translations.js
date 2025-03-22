@@ -71,15 +71,31 @@ export const translations = {
             description: "We've gathered short descriptions of all events to help you better understand the meaning behind them",
             events: [
                 {
-                    title: "Ramayan Prayer", description: "Hindus hold a Ramayan prayer for weddings to seek blessings for a strong and harmonious marriage. The epic of Rama and Sita symbolizes love, faithfulness, and duty, guiding couples in their marital journey. The prayer invokes divine protection, promotes family unity, teaches resilience in marriage, and spiritually purifies the occasion, ensuring an auspicious start to married life.", time: "18th April - Starts at 10am"
+                    title: "Ramayan Prayer", description: "Hindus hold a Ramayan prayer for weddings to seek blessings for a strong and harmonious marriage. The epic of Rama and Sita symbolises love, faithfulness, and duty, guiding couples in their marital journey.<br><br>The prayer invokes divine protection, promotes family unity, teaches resilience in marriage, and spiritually purifies the occasion, ensuring an auspicious start to married life.", time: "18th April - Starts at 10am"
                 },
-                { title: "Jaggo", description: "Punjabis hold a Jaggo party as a vibrant pre-wedding celebration to spread joy, excitement, and blessings before the wedding. \"Jaggo\" means \"wake up\", symbolizing a night of festivity where family and friends stay up late, singing, dancing, and carrying decorated pots (gaffa) with candles or lights. Traditionally, relatives visit neighbors' homes, inviting them to the wedding while performing Boliyan (folk songs) and dancing to dhol beats. The event strengthens family bonds, energizes the wedding festivities, and keeps cultural traditions alive.", time: "21st April - Starts at 7pm" },
-                { title: "Haldi", description: "A Haldi party is a pre-wedding ritual where turmeric paste is applied to the bride and groom for blessings and protection from evil. The ceremony symbolizes positivity, prosperity, and new beginnings while bringing families together in a joyous celebration before the wedding.", time: "25th April - Starts at 5pm" },
+                { title: "Jaggo", description: "Punjabis hold a Jaggo party as a vibrant pre-wedding celebration to spread joy, excitement, and blessings before the wedding. \"Jaggo\" means \"wake up\", symbolising a night of festivity where family and friends stay up late, singing, dancing, and carrying decorated pots (gaffa) with candles or lights.<br><br>Traditionally, relatives visit neighbors' homes, inviting them to the wedding while performing Boliyan (folk songs) and dancing to dhol beats.<br>The event strengthens family bonds, energises the wedding festivities, and keeps cultural traditions alive.", time: "21st April - Starts at 7pm" },
+                { title: "Haldi", description: "A Haldi party is a pre-wedding ritual where turmeric paste is applied to the bride and groom for blessings and protection from evil.<br>The ceremony symbolizes positivity, prosperity, and new beginnings while bringing families together in a joyous celebration before the wedding.", time: "25th April - Starts at 5pm" },
                 {
-                    title: "Churra\/Saanth", description: "The Churra or Saanth ceremony is a traditional Punjabi pre- wedding ritual, primarily for the bride. It involves the maternal uncle(mama) and aunt(mami) gifting the bride a set of red and white bangles(churra), symbolizing marital prosperity and blessings.The bangles are blessed by elders and worn as a sign of good luck.\nThe Saanth ceremony, performed alongside or before the Churra ritual, involves applying a mustard oil mixture on the bride's body to purify and prepare her for marriage.This ritual is filled with love, prayers, and festive spirit, marking the bride's transition into married life.", time: "26th April - Starts at 11am"
+                    title: "Churra\/Saanth", description: "The Churra or Saanth ceremony is a traditional Punjabi pre-wedding ritual, primarily for the bride. It involves the maternal uncle (mama) and aunt (mami) gifting the bride a set of red and white bangles (churra), symbolising marital prosperity and blessings.<br>The bangles are blessed by elders and worn as a sign of good luck.<br><br>The Saanth ceremony, performed alongside or before the Churra ritual, involves applying a mustard oil mixture on the bride's body to purify and prepare her for marriage.<br>This ritual is filled with love, prayers, and festive spirit, marking the bride's transition into married life.", time: "26th April - Starts at 11am"
                 },
-                { title: "Hindu Wedding Ceremony ", description: "", time: "27th April - Starts at 11am" },
-                { title: "Civil Ceremony & Reception ", description: "A wedding blessing ceremony is a symbolic and spiritual event where a couple receives blessings from family, friends, or religious figures. The reception party follows, marking the joyous celebration of the newlyweds. It includes a grand entrance, speeches, dinner, dancing, and entertainment. Traditions like cake cutting, the first dance, and toasts create a festive atmosphere, allowing guests to celebrate the couple's union in style.", time: "28th April - Starts at 2pm" }
+                {
+                    title: "Hindu Wedding Ceremony ", description: `A Mandap wedding ceremony is a traditional Hindu wedding ritual held under a sacred canopy (mandap), symbolising the couple's new home.<br>Key rituals include:
+                    <br><br>
+                    <ul>
+                        <li><b>Ganesh Puja</b> - Seeking Lord Ganesha's blessings for a smooth ceremony.</li>
+                        <br>
+                        <li><b>Kanyadaan</b> - The bride's parents give her hand to the groom, symbolising trust and responsibility.</li>
+                        <br>
+                        <li><b>Mangal Pheras</b> - The couple walks around the sacred fire (Agni) four to seven times, making vows of love and duty.</li>
+                        <br>
+                        <li><b>Sindoor & Mangalsutra</b> - The groom applies vermillion (sindoor) and ties the sacred necklace (mangalsutra), marking the bride's marital status.</li>
+                        <br>
+                        <li><b>Saptapadi</b> - The couple takes seven steps together, each representing a vow for a harmonious life.</li>
+                    </ul>
+                    <br>
+                    The ceremony concludes with blessings from elders, celebrating the union of two souls in love and commitment.`, time: "27th April - Starts at 11am"
+                },
+                { title: "Civil Ceremony & Reception ", description: "A wedding blessing ceremony is a symbolic and spiritual event where a couple receives blessings from family, friends, or religious figures.<br><br>The reception party follows, marking the joyous celebration of the newlyweds. It includes a grand entrance, speeches, dinner, dancing, and entertainment.<br>Traditions like cake cutting, the first dance, and toasts create a festive atmosphere, allowing guests to celebrate the couple's union in style.", time: "28th April - Starts at 2pm" }
             ]
         },
         qanda: {
