@@ -80,7 +80,8 @@ export const translations = {
                 { title: "Hindu Wedding Ceremony ", description: "", time: "27th April - Starts at 11am" },
                 { title: "Civil Ceremony & Reception ", description: "A wedding blessing ceremony is a symbolic and spiritual event where a couple receives blessings from family, friends, or religious figures. The reception party follows, marking the joyous celebration of the newlyweds. It includes a grand entrance, speeches, dinner, dancing, and entertainment. Traditions like cake cutting, the first dance, and toasts create a festive atmosphere, allowing guests to celebrate the couple's union in style.", time: "28th April - Starts at 2pm" }
             ]
-        }
+        },
+        links: [{ title: "About us", link: "about" }, { title: "Attire", link: "attire" }, { title: "Events", link: "events" }, { title: "Q & A", link: "qanda" }]
     },
     polish: {
         title: "Ślub Anny i Raja",

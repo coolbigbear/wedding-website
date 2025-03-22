@@ -4,7 +4,14 @@ import { Button } from '@/components/ui/button';
 import LanguageSelector from './LanguageSelector';
 import { MobileMenu } from './MobileMenu';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { LanguageContext } from '../App';
+
+
 export function Header({ setLanguage }) {
+
+	const { language } = useContext(LanguageContext);
+
 	return (
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-around md:justify-between md:px-10 md:pt-4">
@@ -18,9 +25,11 @@ export function Header({ setLanguage }) {
 				<LanguageSelector setLanguage={setLanguage} />
 				<div className="flex md:hidden m-4 justify-center items-center">
 					<MobileMenu>
-						<Link to={'/attire'} className="text-black visited:text-black">
-							Attire
+						{language.links.map((link, index) => (
+						<Link key={index} to={`/${link.link}`} className="text-black visited:text-black">
+							{link.title}
 						</Link>
+						))}
 					</MobileMenu>
 				</div>
 			</div>

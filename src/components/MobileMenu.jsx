@@ -22,7 +22,9 @@ export function MobileMenu({ children }) {
 			<SheetContent side="right" className="w-[240px] sm:w-[300px]">
 				<div className="flex h-full flex-col justify-between">
 					<div className="mt-8 flex flex-col gap-4">
-						<SheetTrigger asChild>{children}</SheetTrigger>
+						{children.map((child, index) => (
+							<SheetTrigger asChild key={index}>{child}</SheetTrigger>
+						))}
 					</div>
 					<div className="flex items-center"></div>
 				</div>
