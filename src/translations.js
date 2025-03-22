@@ -16,21 +16,21 @@ export const translations = {
         attire: {
             title: "Attire",
             subtitle: "What should I wear?",
-            description: "We gathered mood boards to inspire your outfits for the wedding events.\nWearing Asian Clothes is absolutely not required. Please come wearing outfits you are comfortable in. ",
+            description: "We gathered mood boards to inspire your outfits for the wedding events.<br><br>Wearing Asian Clothes is absolutely not required. Please come wearing outfits you are comfortable in. ",
             events: [
                 {
                     eventTitle: "Ramayan Prayer",
-                    eventDescription: "Generally best to wear clothes that are considered modest and respectful, covering knees and shoulders. Please wear something comfortable and easy to sit in as you'll be in this position for a while.",
+                    eventDescription: "Generally best to wear clothes that are considered modest and respectful, covering knees and shoulders.<br><br>Please wear something comfortable and easy to sit in as you'll be in this position for a while.",
                     images: ["/images/attire/ramayan-1.png", "/images/attire/ramayan-2.png", "/images/attire/ramayan-3.png", "/images/attire/ramayan-4.png"]
                 },
                 {
                     eventTitle: "Jaggo",
-                    eventDescription: "Glitz and Glam! Bring the colour and something that you can dance in! If your hair is long enough and you would like to, having a plait is traditional!",
+                    eventDescription: "Glitz and Glam! Bring the colour and something that you can dance in!<br><br>If your hair is long enough and you would like to, having a plait is traditional!",
                     images: ["/images/attire/jaggo-1.png", "/images/attire/jaggo-2.png", "/images/attire/jaggo-3.png", "/images/attire/jaggo-4.png"]
                 },
                 {
                     eventTitle: "Haldi",
-                    eventDescription: "Colour Scheme tends to incorporate a lot of yellows and oranges of the traditional turmeric applied on Bride and Groom. Pastels are also great to wear but please wear something youre okay with staining. We apologise in advance.",
+                    eventDescription: "Colour Scheme tends to incorporate a lot of yellows and oranges, symbolic of the traditional turmeric applied on Bride and Groom.<br><br>Pastels are also great to wear but please wear something youre okay with staining. We apologise in advance. ",
                     images: ["/images/attire/haldi-1.png", "/images/attire/haldi-2.png", "/images/attire/haldi-3.png", "/images/attire/haldi-4.png"]
                 },
                 {
@@ -39,13 +39,13 @@ export const translations = {
                     images: ["/images/attire/churra-1.png", "/images/attire/churra-2.png", "/images/attire/churra-3.png", "/images/attire/churra-4.png"]
                 },
                 {
-                    eventTitle: "Hindu Wedding Ceremony (Mandap)",
-                    eventDescription: "Shades of Pink or accents of pinks if possible. Please refrain from wearing white as wearing white at a celebration is considered inauspicious.",
+                    eventTitle: "Hindu Wedding Ceremony",
+                    eventDescription: "Shades of Pink or accents of pinks if possible.<br><br>Please refrain from wearing white as wearing white at a celebration is considered inauspicious.",
                     images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
                 },
                 {
                     eventTitle: "Civil Ceremony & Reception",
-                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception. This will be a formal black tie event but bring your dancing shoes. Colours such as Gold, White and Red are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
+                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold, White and Red are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
@@ -81,7 +81,23 @@ export const translations = {
                 { title: "Hindu Wedding Ceremony ", description: "", time: "27th April - Starts at 11am" },
                 { title: "Civil Ceremony & Reception ", description: "A wedding blessing ceremony is a symbolic and spiritual event where a couple receives blessings from family, friends, or religious figures. The reception party follows, marking the joyous celebration of the newlyweds. It includes a grand entrance, speeches, dinner, dancing, and entertainment. Traditions like cake cutting, the first dance, and toasts create a festive atmosphere, allowing guests to celebrate the couple's union in style.", time: "28th April - Starts at 2pm" }
             ]
-        }    },
+        },
+        qanda: {
+            title: "Questions & Answers",
+            subtitle: "",
+            description: "Some answers to common questions we've been asked.<br>If you have any additional questions please reach out to the bride or groom.",
+            events: [
+
+                { title: "What should I gift ?", description: "No gifts are required for any occasion, if you do feel obligated, please bring flowers to the Hindu Mandap Ceremony or an envelope to Hedsor House." },
+                { title: "Where can I park ?", description: "Hedsor House:<br>Parking available on site (additional parking is available behind the house, please follow the signs)<br><br>Slough Hindu Temple and Baylis House:<br>Parking available on site<br><br>Please use street parking for all other events" },
+                { title: "What should I wear ?", description: "Please refer to the 'Attire' page of the website." },
+                { title: "Can I take pictures during the ceremony ?", description: "You're welcome to take photos and videos during the day on all events but for you to especially enjoy the ceremonies, we have hired professional videographers and photographers to capture our special moments.<br><br>We will absolutely share these pictures out to all, we hope to see your faces and not your phones.<br>Thank you!" },
+                { title: "Are plus ones or children allowed ?", description: "Unfortunately due to space, the guest list has been locked ahead of time.<br><br>Please reach out to the Bride and Groom if there is a special circumstance." },
+                { title: "Will there be meal options for guests with dietary restrictions or allergies?", description: " Our caterer is providing a selection of Indian vegetarian and non-vegetarian options.<br><br>Please reach out to the bride and groom to specify your dietary requirement or allergies, so we can cater to your needs ahead of time!" }
+
+            ]
+        }
+    },
     polish: {
         title: "Ślub Anny i Raja",
         date: "26 Sierpnia, 2025",

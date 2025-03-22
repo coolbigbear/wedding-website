@@ -7,6 +7,7 @@ import { createContext, useLayoutEffect, useState } from 'react';
 import { translations } from './translations';
 import Attire from './components/pages/Attire';
 import Events from './components/pages/Events';
+import QandA from './components/pages/QandA';
 
 export const LanguageContext = createContext('english');
 
@@ -30,9 +31,9 @@ const App = () => {
 							<Route index element={<Home />} />
 							<Route path="about" element={<About />} />
 							<Route path="attire" element={<Attire />} />
-							<Route path="events" element={<Events />} />
-							{/* <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+							<Route path="events" element={<Events language={t.events} bgcolor={'bg-amber-500'} />} />
+							<Route path="qanda" element={<Events language={t.qanda} bgcolor={'bg-red-800'} />} />
+							<Route path="*" element={<Home />} />
 						</Route>
 					</Routes>
 				</Wrapper>
