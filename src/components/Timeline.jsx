@@ -1,9 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Clock, Heart, Camera, Gift, Utensils, Music, Wine, Car, Clock2, CarFront, PartyPopper, MessageCircleHeart, CakeSlice } from 'lucide-react';
+import {
+	Heart,
+	Utensils,
+	Music,
+	Wine,
+	Clock2,
+	CarFront,
+	PartyPopper,
+	MessageCircleHeart,
+	CakeSlice,
+} from 'lucide-react';
 import TimelineCard from './TimelineCard';
 
 const WeddingTimeline = ({ itinerary }) => {
-	function useMatchHeight(timelineContainer, timelineCard) {
+	function useMatchHeight(timelineContainer, timelineCard, index) {
 		const [height, setHeight] = useState('auto');
 
 		useEffect(() => {
@@ -12,22 +22,27 @@ const WeddingTimeline = ({ itinerary }) => {
 				let lastContainerHeight = 'auto';
 				let elements = document.querySelectorAll(`#${timelineContainer}`);
 				if (elements.length > 0) {
-					const lastElement = elements[elements.length - 1];
+					const lastElement = elements[index];
 					lastContainerHeight = lastElement.offsetHeight;
 				}
 				// Get all cards and find height of last one
 				elements = document.querySelectorAll(`#${timelineCard}`);
 				if (elements.length > 0) {
-					const lastElement = elements[elements.length - 1];
-					setHeight(`${lastContainerHeight - lastElement.offsetHeight / 2}px`);
+					const lastElement = elements[index];
+					// console.log(`Container height: ${lastContainerHeight}`);
+					let lastCardHeight = lastElement.offsetHeight / 2;
+					// console.log(`Card height: ${lastCardHeight}`);
+					setHeight(`${lastContainerHeight - lastCardHeight}px`);
 				}
 			});
 
 			// Get all elements with the given ID
 			const elements = document.querySelectorAll(`#${timelineContainer}`);
 			if (elements.length > 0) {
-				// Observe the last element
-				resizeObserver.observe(elements[elements.length - 1]);
+				if (index == -1) {
+					index = elements.length - 1;
+				}
+				resizeObserver.observe(elements[index]);
 			}
 
 			return () => {
@@ -51,7 +66,8 @@ const WeddingTimeline = ({ itinerary }) => {
 		Car: <CarFront size={24} />,
 	};
 
-	const heightToMatch = useMatchHeight('timeline', 'timeline-card');
+	const topLineOffset = useMatchHeight('timeline', 'timeline-card', 0);
+	const bottomLineOffset = useMatchHeight('timeline', 'timeline-card', -1);
 
 	return (
 		<div className="flex w-full flex-col items-center mb-14 overflow-hidden">
@@ -61,23 +77,27 @@ const WeddingTimeline = ({ itinerary }) => {
 				<div className="relative">
 					{/* Main timeline vertical line */}
 					<div
-						className={`absolute left-1/2 top-6 bottom-[var(--bottom-cutoff)] w-2 bg-amber-900 transform -translate-x-1/2`}
+						className={`absolute left-1/2 top-[var(--top-cutoff)] bottom-[var(--bottom-cutoff)] w-2 bg-amber-900 transform -translate-x-1/2`}
 						style={{
-							'--bottom-cutoff': heightToMatch,
+							'--top-cutoff': topLineOffset,
+							'--bottom-cutoff': bottomLineOffset,
 						}}></div>
 
 					{/* Timeline events */}
-					<div className="md:space-y-8  mx-2 pb-2 overflow-hidden">
+					<div className="md:space-y-8  mx-2 pb-5 overflow-hidden">
 						{itinerary.events.map((event, index) => {
 							const isEven = index % 2 === 0;
 
 							return (
-								<div id="timeline" key={index} className={`relative flex ${isEven ? 'justify-start' : 'justify-end'}`}>
+								<div
+									id="timeline"
+									key={index}
+									className={`relative flex items-center ${isEven ? 'justify-start' : 'justify-end'}`}>
 									{/* Event content - LEFT SIDE */}
 									{isEven && <TimelineCard event={event} left={true} />}
 
 									{/* Icon circle and connector line */}
-									<div className="absolute left-1/2 transform -translate-x-1/2 z-0 translate-y-1/2">
+									<div className="absolute left-1/2 transform -translate-x-1/2 z-0">
 										{/* Horizontal connector line */}
 										<div
 											className={`absolute top-5 h-1 border-dotted border-t-4 border-amber-900 w-[40vw] ${
