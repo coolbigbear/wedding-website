@@ -25,7 +25,7 @@ export function Header({ setLanguage }) {
 				<LanguageSelector setLanguage={setLanguage} />
 				<div className="flex md:hidden m-4 justify-center items-center">
 					<MobileMenu>
-						{language.links.map((link, index) => (
+						{language.homeCards.map((link, index) => (
 						<Link key={index} to={`/${link.link}`} className="text-black visited:text-black">
 							{link.title}
 						</Link>
