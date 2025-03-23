@@ -29,7 +29,7 @@ const App = () => {
 					<Routes>
 						<Route path="/" element={<Layout />}>
 							<Route index element={<Home />} />
-							<Route path="about" element={<About />} />
+							<Route path="about" element={<About language={t.about} bgcolor={'bg-green-700'}/>} />
 							<Route path="attire" element={<Attire />} />
 							<Route path="events" element={<Events language={t.events} bgcolor={'bg-amber-500'} />} />
 							<Route path="qanda" element={<Events language={t.qanda} bgcolor={'bg-red-800'} />} />

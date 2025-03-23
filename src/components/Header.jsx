@@ -9,8 +9,8 @@ import { LanguageContext } from '../App';
 
 
 export function Header({ setLanguage }) {
-
 	const { language } = useContext(LanguageContext);
+	let links = [...language.homeCards].sort((a, b) => a.order- b.order);
 
 	return (
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
@@ -25,10 +25,10 @@ export function Header({ setLanguage }) {
 				<LanguageSelector setLanguage={setLanguage} />
 				<div className="flex md:hidden m-4 justify-center items-center shadow-md rounded-xl">
 					<MobileMenu>
-						{language.homeCards.map((link, index) => (
-						<Link key={index} to={`${link.link}`} className="text-black visited:text-black">
-							{link.title}
-						</Link>
+						{links.map((link, index) => (
+							<Link key={index} to={`${link.link}`} className="text-black visited:text-black">
+								{link.title}
+							</Link>
 						))}
 					</MobileMenu>
 				</div>

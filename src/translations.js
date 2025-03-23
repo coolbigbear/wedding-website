@@ -8,10 +8,10 @@ export const translations = {
             details: "Hedsor House • Taplow, United Kingdom"
         },
         homeCards: [
-            { title: "Our story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
-            { title: "Other events", imageUrl: "/images/other.jpeg", link: "/events" },
-            { title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+            { order: 2, title: "Our story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
+            { order: 1, title: "Other events", imageUrl: "/images/other.jpeg", link: "/events" },
+            { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
+            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
         ],
         attire: {
             title: "Attire",
@@ -68,7 +68,7 @@ export const translations = {
         events: {
             title: "Events",
             subtitle: "What do all these functions symbolize?",
-            description: "We've gathered short descriptions of all events to help you better understand the meaning behind them",
+            description: "We've gathered short descriptions of all events to help you better understand the meaning behind them<br><br>Please note, due to space and tradition, we were unable to invite everyone to all events.<br>Please refer to your individual invites for attendance.<br>Thank you for understanding!",
             events: [
                 {
                     title: "Ramayan Prayer", description: "Hindus hold a Ramayan prayer for weddings to seek blessings for a strong and harmonious marriage. The epic of Rama and Sita symbolises love, faithfulness, and duty, guiding couples in their marital journey.<br><br>The prayer invokes divine protection, promotes family unity, teaches resilience in marriage, and spiritually purifies the occasion, ensuring an auspicious start to married life.", time: "18th April - Starts at 10am"
@@ -112,69 +112,137 @@ export const translations = {
                 { title: "Will there be meal options for guests with dietary restrictions or allergies?", description: " Our caterer is providing a selection of Indian vegetarian and non-vegetarian options.<br><br>Please reach out to the bride and groom to specify your dietary requirement or allergies, so we can cater to your needs ahead of time!" }
 
             ]
+        },
+        about: {
+            title: "Our Story",
+            subtitle: "A bit about us!",
+            body: [
+
+                `Someone once showed me a snapchat video of Michał making puns in the University Tesco's and I remember thinking \"Now this guy...this guy is funny\". We actually met months later on Swansea Bay Beach via mutual friends.
+                <br>When we met, Michał thought I was funny but annoying whereas I was already head over heels from one look. We actually didn't keep in touch at that moment and only started talking to each other via Snapchat, later that summer when we both happen to take separate trips around Europe.`,
+                `We spoke everyday and it was just so easy.<br>We just clicked, we had exactly the same humour and just really enjoyed talking to each other. That has never really gone away, not when Michał did a year in industry and I was in my final year at Uni. Not when I graduated and Michał finished up his Bachelors. Especially, not when Michał moved to Finland for his Masters. We always found a topic to talk about or just contently sat there in silence working on our own things.`,
+                `This time definitely wasn't the easiest, especially with a Global Pandemic. It really taught us how to care for each other without needing to be in the same room. (I am very happy that time is over though)`,
+                `Now, we can annoy each other whenever. Now that our life isn't a plane ride away, we love to go out to eat our favourite cuisine - Sushi. Most weekends you'll find us playing Boardgames, going for a walk or just sitting together whilst I read and Michał works on his newest project.
+            `,
+            ],
+            images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
         }
     },
     polish: {
-        title: "Ślub Anny i Raja",
-        date: "26 Sierpnia, 2025",
-        countdown: {
-            title: "Odliczanie do Naszego Wyjątkowego Dnia",
-            days: "Dni",
-            hours: "Godziny",
-            minutes: "Minuty",
-            seconds: "Sekundy"
-        },
+        title: "Sonali & Michał",
+        date: "28 kwietnia 2025",
         hero: {
-            invitation: "Serdecznie zapraszamy na uroczystość naszego ślubu",
-            details: "Sobota, 26 Sierpnia, 2025 • Villa Rosa • Warszawa, Polska"
+            invitation: "Mamy zaszczyt zaprosić Państwa na naszą ceremonię cywilną i przyjęcie w Hedsor House",
+            date: "Poniedziałek, 28 kwietnia 2025",
+            details: "Hedsor House • Taplow, Wielka Brytania"
+        },
+        homeCards: [
+            { order: 2, title: "Nasza historia", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
+            { order: 1, title: "Inne wydarzenia", imageUrl: "/images/other.jpeg", link: "/events" },
+            { order: 0, title: "Dress code", imageUrl: "/images/attire.jpeg", link: "/attire" },
+            { order: 3, title: "Pytania i odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+        ],
+        attire: {
+            title: "Dress code",
+            subtitle: "Co powinienem ubrać?",
+            description: "Przygotowaliśmy tablice inspiracji, aby pomóc Ci wybrać strój na nasze uroczystości ślubne.<br><br>Noszenie strojów azjatyckich nie jest wymagane. Prosimy o przyjście w strojach, w których czujesz się komfortowo.",
+            events: [
+                {
+                    eventTitle: "Modlitwa Ramayan",
+                    eventDescription: "Najlepiej ubierać się w stroje, które są uważane za skromne i okazują szacunek, zakrywając kolana i ramiona.<br><br>Prosimy o założenie czegoś wygodnego, w czym łatwo będzie siedzieć, ponieważ pozostaniesz w tej pozycji przez dłuższy czas.",
+                    images: ["/images/attire/ramayan-1.png", "/images/attire/ramayan-2.png", "/images/attire/ramayan-3.png", "/images/attire/ramayan-4.png"]
+                },
+                {
+                    eventTitle: "Jaggo",
+                    eventDescription: "Blask i przepych! Postaw na kolor i coś, w czym możesz tańczyć!<br><br>Jeśli Twoje włosy są wystarczająco długie i masz ochotę, tradycyjny jest warkocz!",
+                    images: ["/images/attire/jaggo-1.png", "/images/attire/jaggo-2.png", "/images/attire/jaggo-3.png", "/images/attire/jaggo-4.png"]
+                },
+                {
+                    eventTitle: "Haldi",
+                    eventDescription: "Schemat kolorystyczny zwykle zawiera dużo żółtych i pomarańczowych odcieni, symbolizujących tradycyjną kurkumę nakładaną na Pannę Młodą i Pana Młodego.<br><br>Pastelowe kolory też są świetne, ale prosimy o noszenie czegoś, co możesz pobrudzić. Z góry przepraszamy.",
+                    images: ["/images/attire/haldi-1.png", "/images/attire/haldi-2.png", "/images/attire/haldi-3.png", "/images/attire/haldi-4.png"]
+                },
+                {
+                    eventTitle: "Churra/Saanth",
+                    eventDescription: "Strój casualowy jest mile widziany, gdyż jest to mała, ale symboliczna ceremonia.",
+                    images: ["/images/attire/churra-1.png", "/images/attire/churra-2.png", "/images/attire/churra-3.png", "/images/attire/churra-4.png"]
+                },
+                {
+                    eventTitle: "Hinduska Ceremonia Ślubna",
+                    eventDescription: "Odcienie różu lub akcenty różowe jeśli to możliwe.<br><br>Prosimy o powstrzymanie się od noszenia bieli, ponieważ biel na uroczystości jest uważana za niepomyślną.",
+                    images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
+                },
+                {
+                    eventTitle: "Ceremonia Cywilna i Przyjęcie",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, masz możliwość przebrania się podczas koktajlu.<br><br>Będzie to formalne wydarzenie w stylu black tie, ale pamiętaj o butach do tańca!<br><br>Kolory takie jak złoto, biel i czerwień są zarezerwowane dla druhien, podczas gdy smokingi są zarezerwowane dla drużbów. Dziękujemy!",
+                    images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
+                }
+            ]
+
         },
         itinerary: {
-            title: "Harmonogram Ślubu",
-            ceremony: {
-                title: "Ceremonia",
-                time: "11:00",
-                details: "Tradycyjna polska ceremonia z elementami sikhijskimi"
-            },
-            photos: {
-                title: "Zdjęcia",
-                time: "12:30",
-                details: "Zdjęcia rodzinne w ogrodzie"
-            },
-            reception: {
-                title: "Przyjęcie",
-                time: "14:00",
-                details: "Koktajle i przekąski"
-            },
-            dinner: {
-                title: "Obiad",
-                time: "17:00",
-                details: "Fuzja kuchni polskiej i indyjskiej"
-            },
-            dancing: {
-                title: "Taniec",
-                time: "19:00",
-                details: "Muzyka i zabawa do północy"
-            }
+            title: "Plan dnia",
+            events: [
+                { time: "14:00", title: "Goście przybywają do Hedsor House", icon: "Clock" },
+                { time: "14:30", title: "Rozpoczęcie ceremonii cywilnej", icon: "Heart" },
+                { time: "15:30", title: "Koktajl powitalny", icon: "Wine" },
+                { time: "17:00", title: "Goście zajmują miejsca w Sali Balowej", icon: "Utensils" },
+                { time: "18:15", title: "Rozpoczęcie przemówień", icon: "Speech" },
+                { time: "20:15", title: "Krojenie tortu", icon: "Cake" },
+                { time: "20:30", title: "Pierwszy taniec", icon: "Music" },
+                { time: "20:30", title: "IMPREZA", icon: "Party" },
+                { time: "23:30", title: "Goście wracają do domu", icon: "Car" },
+            ]
         },
-        culturalInfo: {
-            title: "Elementy Kulturowe",
-            polishTraditions: {
-                title: "Polskie Tradycje Weselne",
-                details: "Tradycyjne powitanie chlebem i solą, dzielenie kieliszków wódki, polonez jako pierwszy taniec"
-            },
-            indianTraditions: {
-                title: "Indyjskie Tradycje Weselne",
-                details: "Ceremonia Mehndi, noc Sangeet, procesja Baraat, ceremonia Anand Karaj"
-            },
-            dresscode: {
-                title: "Dress Code",
-                details: "Strój formalny. Zachęcamy do noszenia tradycyjnych strojów polskich lub indyjskich!"
-            }
+        events: {
+            title: "Wydarzenia",
+            subtitle: "Co symbolizują wszystkie te uroczystości?",
+            description: "Zebraliśmy krótkie opisy wszystkich wydarzeń, aby pomóc Ci lepiej zrozumieć ich znaczenie.<br><br>Prosimy zauważyć, że ze względu na ograniczenia przestrzenne i tradycję, nie mogliśmy zaprosić wszystkich na wszystkie wydarzenia.<br>Prosimy o sprawdzenie indywidualnych zaproszeń.<br>Dziękujemy za zrozumienie!",
+            events: [
+                {
+                    title: "Modlitwa Ramayan", description: "Hindusi odprawiają modlitwę Ramayan na ślubach, aby prosić o błogosławieństwo dla silnego i harmonijnego małżeństwa. Epos o Ramie i Sicie symbolizuje miłość, wierność i obowiązek, prowadząc pary w ich małżeńskiej podróży.<br><br>Modlitwa przywołuje boską ochronę, promuje jedność rodziny, uczy odporności w małżeństwie i duchowo oczyszcza uroczystość, zapewniając pomyślny początek życia małżeńskiego.", time: "18 kwietnia - Rozpoczęcie o 10:00"
+                },
+                { title: "Jaggo", description: "Pendżabczycy organizują przyjęcie Jaggo jako żywiołową uroczystość przedślubną, aby szerzyć radość, podekscytowanie i błogosławieństwa przed ślubem. \"Jaggo\" oznacza \"obudź się\", symbolizując noc świętowania, podczas której rodzina i przyjaciele nie śpią do późna, śpiewając, tańcząc i niosąc ozdobione garnki (gaffa) ze świecami lub światłami.<br><br>Tradycyjnie krewni odwiedzają domy sąsiadów, zapraszając ich na ślub, wykonując Boliyan (pieśni ludowe) i tańcząc przy dźwiękach dholu.<br>Wydarzenie wzmacnia więzi rodzinne, energetyzuje uroczystości ślubne i utrzymuje przy życiu tradycje kulturowe.", time: "21 kwietnia - Rozpoczęcie o 19:00" },
+                { title: "Haldi", description: "Przyjęcie Haldi to przedślubny rytuał, podczas którego na pannę młodą i pana młodego nakładana jest pasta z kurkumy, aby uzyskać błogosławieństwa i ochronę przed złem.<br>Ceremonia symbolizuje pozytywność, dobrobyt i nowe początki, jednocząc rodziny w radosnym świętowaniu przed ślubem.", time: "25 kwietnia - Rozpoczęcie o 17:00" },
+                {
+                    title: "Churra\/Saanth", description: "Ceremonia Churra lub Saanth to tradycyjny pendżabski rytuał przedślubny, głównie dla panny młodej. Polega on na tym, że wuj ze strony matki (mama) i ciotka (mami) obdarowują pannę młodą zestawem czerwonych i białych bransoletek (churra), symbolizujących małżeński dobrobyt i błogosławieństwa.<br>Bransoletki są błogosławione przez starszych i noszone jako znak szczęścia.<br><br>Ceremonia Saanth, wykonywana równolegle z lub przed rytuałem Churra, polega na nałożeniu mieszanki oleju musztardowego na ciało panny młodej, aby oczyścić ją i przygotować do małżeństwa.<br>Ten rytuał jest pełen miłości, modlitw i świątecznego ducha, oznaczając przejście panny młodej do życia małżeńskiego.", time: "26 kwietnia - Rozpoczęcie o 11:00"
+                },
+                {
+                    title: "Hinduska Ceremonia Ślubna", description: `Ceremonia ślubna Mandap to tradycyjny hinduski rytuał ślubny odbywający się pod świętym baldachimem(mandap), symbolizującym nowy dom pary.< br > Kluczowe rytuały obejmują:
+        <br><br>
+            <ul>
+                <li><b>Ganesh Puja</b> - Prośba o błogosławieństwo Lorda Ganeshy dla płynnej ceremonii.</li>
+                <br>
+                    <li><b>Kanyadaan</b> - Rodzice panny młodej oddają jej rękę panu młodemu, symbolizując zaufanie i odpowiedzialność.</li>
+                    <br>
+                        <li><b>Mangal Pheras</b> - Para okrąża święty ogień (Agni) cztery do siedmiu razy, składając przysięgi miłości i obowiązku.</li>
+                        <br>
+                            <li><b>Sindoor & Mangalsutra</b> - Pan młody nakłada cynober (sindoor) i zawiązuje świętą naszyjnik (mangalsutra), oznaczając stan małżeński panny młodej.</li>
+                            <br>
+                                <li><b>Saptapadi</b> - Para wykonuje siedem kroków razem, każdy reprezentujący przysięgę harmonijnego życia.</li>
+                            </ul>
+                            <br>
+                                Ceremonia kończy się błogosławieństwami od starszych, świętując zjednoczenie dwóch dusz w miłości i zaangażowaniu.`, time: "27 kwietnia - Rozpoczęcie o 11:00"
+                },
+                { title: "Ceremonia Cywilna i Przyjęcie", description: "Ceremonia błogosławieństwa ślubnego to symboliczne i duchowe wydarzenie, podczas którego para otrzymuje błogosławieństwa od rodziny, przyjaciół lub osób duchownych.<br><br>Po niej następuje przyjęcie, będące radosnym świętowaniem nowożeńców. Obejmuje ono uroczyste wejście, przemówienia, kolację, tańce i rozrywkę.<br>Tradycje takie jak krojenie tortu, pierwszy taniec i toasty tworzą świąteczną atmosferę, pozwalając gościom świętować związek pary w eleganckim stylu.", time: "28 kwietnia - Rozpoczęcie o 14:00" }
+            ]
         },
-        rsvp: "Potwierdź Obecność",
-        gifts: "Lista Prezentów"
+        qanda: {
+            title: "Pytania i odpowiedzi",
+            subtitle: "",
+            description: "Kilka odpowiedzi na najczęściej zadawane pytania.<br>Jeśli masz dodatkowe pytania, prosimy o kontakt z panną młodą lub panem młodym.",
+            events: [
+
+                { title: "Co powinienem podarować?", description: "Prezenty nie są wymagane na żadną uroczystość. Jeśli jednak czujesz się zobowiązany, prosimy o przyniesienie kwiatów na hinduską ceremonię Mandap lub koperty do Hedsor House." },
+                { title: "Gdzie mogę zaparkować?", description: "Hedsor House:<br>Parking dostępny na miejscu (dodatkowy parking znajduje się za domem, prosimy śledzić oznaczenia)<br><br>Świątynia Hinduska w Slough i Baylis House:<br>Parking dostępny na miejscu<br><br>Na wszystkie inne wydarzenia prosimy korzystać z parkowania przy ulicy" },
+                { title: "Co powinienem ubrać?", description: "Prosimy o zapoznanie się ze stroną 'Dress code' na naszej stronie internetowej." },
+                { title: "Czy mogę robić zdjęcia podczas ceremonii?", description: "Możesz robić zdjęcia i nagrywać filmy podczas wszystkich wydarzeń, ale aby w pełni cieszyć się ceremoniami, zatrudniliśmy profesjonalnych kamerzystów i fotografów, aby uchwycić nasze wyjątkowe chwile.<br><br>Z pewnością udostępnimy te zdjęcia wszystkim, mamy nadzieję zobaczyć Wasze twarze, a nie Wasze telefony.<br>Dziękujemy!" },
+                { title: "Czy osoby towarzyszące lub dzieci są dozwolone?", description: "Niestety, ze względu na ograniczenia przestrzenne, lista gości została zamknięta z wyprzedzeniem.<br><br>Prosimy o kontakt z Panną Młodą i Panem Młodym, jeśli istnieją szczególne okoliczności." },
+                { title: "Czy będą opcje posiłków dla gości z ograniczeniami dietetycznymi lub alergiami?", description: "Nasz catering zapewnia wybór indyjskich opcji wegetariańskich i niewegetariańskich.<br><br>Prosimy o kontakt z panną młodą i panem młodym, aby określić swoje wymagania dietetyczne lub alergie, abyśmy mogli zaspokoić Twoje potrzeby z wyprzedzeniem!" }
+
+            ]
+        }
     },
-    // Placeholders for other languages
     punjabi: { title: "English translations shown for demonstration" },
     hindi: { title: "English translations shown for demonstration" }
 };

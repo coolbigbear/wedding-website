@@ -8,7 +8,7 @@ const Attire = () => {
 	const { language } = useContext(LanguageContext)
 	const bgcolor = "bg-amber-900"
 
-		const description = { __html: language.attire.description };
+	const description = { __html: language.attire.description };
 
 
 	return (
