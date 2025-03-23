@@ -1,6 +1,6 @@
 export default function Polaroid({ imageUrl, left=true }) {
 	return (
-		<div className={`bg-white z-10 shadow-xl p-[3%] pb-[8%] h-fit w-fit ${left ? '-rotate-6' : 'rotate-6'}  border`}>
+		<div className={`bg-white z-10 shadow-xl p-[2%] pb-[7%] h-fit w-fit ${left ? '-rotate-6' : 'rotate-6'}  border`}>
 			<div
 				className="h-full w-full"
 				style={{ '--image-url': `url(${imageUrl})` }}>
