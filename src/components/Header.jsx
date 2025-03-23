@@ -22,7 +22,14 @@ export function Header({ setLanguage }) {
 						</Button>
 					</Link>
 				</div>
-				<LanguageSelector setLanguage={setLanguage} />
+				<div className="hidden md:flex m-4 bg-white justify-center items-center rounded-xl shadow-md px-4">
+					{links.map((link, index) => (
+						<Link to={`${link.link}`} key={index} className="text-black visited:text-black px-4">
+							{link.title}
+						</Link>
+					))}
+				</div>
+				<LanguageSelector setLanguage={setLanguage} className="basis-0" />
 				<div className="flex md:hidden m-4 justify-center items-center shadow-md rounded-xl">
 					<MobileMenu>
 						{links.map((link, index) => (
