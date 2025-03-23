@@ -68,7 +68,7 @@ export const translations = {
         events: {
             title: "Events",
             subtitle: "What do all these functions symbolize?",
-            description: "We've gathered short descriptions of all events to help you better understand the meaning behind them<br><br>Please note, due to space and tradition, we were unable to invite everyone to all events.<br>Please refer to your individual invites for attendance.<br>Thank you for understanding!",
+            description: "We've gathered short descriptions of all events to help you better understand the meaning behind them.<br><br>Please note, due to space and tradition, we were unable to invite everyone to all events.<br>Please refer to your individual invites for attendance.<br>Thank you for understanding!",
             events: [
                 {
                     title: "Ramayan Prayer", description: "Hindus hold a Ramayan prayer for weddings to seek blessings for a strong and harmonious marriage. The epic of Rama and Sita symbolises love, faithfulness, and duty, guiding couples in their marital journey.<br><br>The prayer invokes divine protection, promotes family unity, teaches resilience in marriage, and spiritually purifies the occasion, ensuring an auspicious start to married life.", time: "18th April - Starts at 10am"
@@ -119,7 +119,7 @@ export const translations = {
             body: [
 
                 `Someone once showed me a snapchat video of Michał making puns in the University Tesco's and I remember thinking \"Now this guy...this guy is funny\". We actually met months later on Swansea Bay Beach via mutual friends.
-                <br>When we met, Michał thought I was funny but annoying whereas I was already head over heels from one look. We actually didn't keep in touch at that moment and only started talking to each other via Snapchat, later that summer when we both happen to take separate trips around Europe.`,
+                <br>When we met, Michał thought I was funny but annoying whereas I was already head over heels from one look. We actually didn't keep in touch at that moment and only started talking to each other via Snapchat, later that summer, when we both happen to take separate trips around Europe.`,
                 `We spoke everyday and it was just so easy.<br>We just clicked, we had exactly the same humour and just really enjoyed talking to each other. That has never really gone away, not when Michał did a year in industry and I was in my final year at Uni. Not when I graduated and Michał finished up his Bachelors. Especially, not when Michał moved to Finland for his Masters. We always found a topic to talk about or just contently sat there in silence working on our own things.`,
                 `This time definitely wasn't the easiest, especially with a Global Pandemic. It really taught us how to care for each other without needing to be in the same room. (I am very happy that time is over though)`,
                 `Now, we can annoy each other whenever. Now that our life isn't a plane ride away, we love to go out to eat our favourite cuisine - Sushi. Most weekends you'll find us playing Boardgames, going for a walk or just sitting together whilst I read and Michał works on his newest project.
@@ -243,6 +243,129 @@ export const translations = {
             ]
         }
     },
-    punjabi: { title: "English translations shown for demonstration" },
-    hindi: { title: "English translations shown for demonstration" }
+    hindi: {
+        title: "सोनाली और मिकल",
+        date: "28 अप्रैल, 2025",
+        hero: {
+            invitation: "आपको हेडसर हाउस में हमारे सिविल समारोह और स्वागत समारोह का जश्न मनाने के लिए सादर आमंत्रित किया जाता है",
+            date: "सोमवार, 28 अप्रैल, 2025",
+            details: "हेडसर हाउस • टैप्लो, यूनाइटेड किंगडम"
+        },
+        homeCards: [
+            { order: 2, title: "हमारी कहानी", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
+            { order: 1, title: "अन्य कार्यक्रम", imageUrl: "/images/other.jpeg", link: "/events" },
+            { order: 0, title: "पोशाक", imageUrl: "/images/attire.jpeg", link: "/attire" },
+            { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+        ],
+        attire: {
+            title: "पोशाक",
+            subtitle: "मुझे क्या पहनना चाहिए?",
+            description: "हमने शादी के कार्यक्रमों के लिए आपकी पोशाक को प्रेरित करने के लिए मूड बोर्ड इकट्ठा किए हैं।<br><br>एशियाई कपड़े पहनना बिल्कुल आवश्यक नहीं है। कृपया वे पोशाक पहनकर आएं जिनमें आप सहज हों।",
+            events: [
+                {
+                    eventTitle: "रामायण प्रार्थना",
+                    eventDescription: "आमतौर पर ऐसे कपड़े पहनना सबसे अच्छा होता है जिन्हें विनम्र और सम्मानजनक माना जाता है, घुटने और कंधे ढके हुए।<br><br>कृपया कुछ आरामदायक और बैठने में आसान पहनें क्योंकि आप काफी समय तक इस स्थिति में रहेंगे।",
+                    images: ["/images/attire/ramayan-1.png", "/images/attire/ramayan-2.png", "/images/attire/ramayan-3.png", "/images/attire/ramayan-4.png"]
+                },
+                {
+                    eventTitle: "जागो",
+                    eventDescription: "चमक-दमक और ग्लैम! रंग लाएं और कुछ ऐसा पहनें जिसमें आप नाच सकें!<br><br>अगर आपके बाल काफी लंबे हैं और आप चाहें, तो चोटी बनाना परंपरागत है!",
+                    images: ["/images/attire/jaggo-1.png", "/images/attire/jaggo-2.png", "/images/attire/jaggo-3.png", "/images/attire/jaggo-4.png"]
+                },
+                {
+                    eventTitle: "हल्दी",
+                    eventDescription: "रंग योजना में अक्सर पीले और नारंगी रंग शामिल होते हैं, जो दुल्हन और दूल्हे पर लगाई जाने वाली पारंपरिक हल्दी का प्रतीक है।<br><br>पेस्टल रंग भी पहनने के लिए बढ़िया हैं, लेकिन कृपया कुछ ऐसा पहनें जिसके धब्बे पड़ने पर आप परेशान न हों। हम पहले से ही माफी मांगते हैं।",
+                    images: ["/images/attire/haldi-1.png", "/images/attire/haldi-2.png", "/images/attire/haldi-3.png", "/images/attire/haldi-4.png"]
+                },
+                {
+                    eventTitle: "चूड़ा/सांठ",
+                    eventDescription: "यह एक छोटा लेकिन प्रतीकात्मक समारोह है, इसलिए आरामदायक कपड़े पहनना अच्छा रहेगा।",
+                    images: ["/images/attire/churra-1.png", "/images/attire/churra-2.png", "/images/attire/churra-3.png", "/images/attire/churra-4.png"]
+                },
+                {
+                    eventTitle: "हिंदू विवाह समारोह",
+                    eventDescription: "यदि संभव हो तो गुलाबी रंग के विभिन्न छाया या गुलाबी रंग के एक्सेंट।<br><br>कृपया सफेद रंग पहनने से बचें क्योंकि जश्न में सफेद रंग पहनना अशुभ माना जाता है।",
+                    images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
+                },
+                {
+                    eventTitle: "सिविल समारोह और रिसेप्शन",
+                    eventDescription: "चूंकि यह पूरे दिन का कार्यक्रम है, आपके पास ड्रिंक्स रिसेप्शन के दौरान कपड़े बदलने का विकल्प है।<br><br>यह एक औपचारिक ब्लैक टाई इवेंट होगा, लेकिन अपने डांसिंग शूज़ भी लाएं!<br><br>सोना, सफेद और लाल जैसे रंग दुल्हन के दल के लिए आरक्षित हैं, जबकि टक्सीडो दूल्हे के दल के लिए आरक्षित हैं। धन्यवाद!",
+                    images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
+                }
+            ]
+        },
+        itinerary: {
+            title: "दिन का क्रम",
+            events: [
+                { time: "दोपहर 02:00 बजे", title: "मेहमानों का हेडसर हाउस पहुंचना", icon: "Clock" },
+                { time: "दोपहर 2:30 बजे", title: "सिविल समारोह की शुरुआत", icon: "Heart" },
+                { time: "दोपहर 3:30 बजे", title: "ड्रिंक्स रिसेप्शन", icon: "Wine" },
+                { time: "शाम 5:00 बजे", title: "मेहमानों का बॉलरूम में अपनी सीटों पर बैठना", icon: "Utensils" },
+                { time: "शाम 6:15 बजे", title: "भाषणों की शुरुआत", icon: "Speech" },
+                { time: "रात 8:15 बजे", title: "केक काटना", icon: "Cake" },
+                { time: "रात 8:30 बजे", title: "पहला नृत्य", icon: "Music" },
+                { time: "रात 8:30 बजे", title: "पार्टी", icon: "Party" },
+                { time: "रात 11:30 बजे", title: "मेहमानों का घर जाना", icon: "Car" },
+            ]
+        },
+        events: {
+            title: "कार्यक्रम",
+            subtitle: "इन सभी समारोहों का क्या महत्व है?",
+            description: "हमने सभी कार्यक्रमों के बारे में संक्षिप्त विवरण इकट्ठा किए हैं ताकि आप उनके पीछे के अर्थ को बेहतर समझ सकें<br><br>कृपया ध्यान दें, स्थान और परंपरा के कारण, हम हर कार्यक्रम में सभी को आमंत्रित नहीं कर सके।<br>उपस्थिति के लिए कृपया अपने व्यक्तिगत निमंत्रण देखें।<br>समझने के लिए धन्यवाद!",
+            events: [
+                {
+                    title: "रामायण प्रार्थना", description: "हिंदू मजबूत और सामंजस्यपूर्ण विवाह के लिए आशीर्वाद प्राप्त करने के लिए शादी के लिए रामायण प्रार्थना करते हैं। राम और सीता की महाकाव्य प्रेम, निष्ठा और कर्तव्य का प्रतीक है, जो जोड़ों को उनके वैवाहिक यात्रा में मार्गदर्शन करता है।<br><br>प्रार्थना दिव्य सुरक्षा का आह्वान करती है, पारिवारिक एकता को बढ़ावा देती है, विवाह में लचीलापन सिखाती है, और आध्यात्मिक रूप से अवसर को शुद्ध करती है, विवाहित जीवन की एक शुभ शुरुआत सुनिश्चित करती है।", time: "18 अप्रैल - सुबह 10 बजे शुरू"
+                },
+                { title: "जागो", description: "पंजाबी शादी से पहले आनंद, उत्साह और आशीर्वाद फैलाने के लिए एक जागो पार्टी आयोजित करते हैं। \"जागो\" का अर्थ है \"जागो\", जो उत्सव की रात का प्रतीक है जहां परिवार और दोस्त देर रात तक जागते हैं, गाते हैं, नाचते हैं, और मोमबत्तियों या रोशनी के साथ सजाए गए बर्तन (गफ्फा) ले जाते हैं।<br><br>परंपरागत रूप से, रिश्तेदार पड़ोसियों के घरों का दौरा करते हैं, उन्हें बोलियां (लोक गीत) करते हुए और ढोल की धुन पर नाचते हुए शादी में आमंत्रित करते हैं।<br>यह आयोजन पारिवारिक बंधनों को मजबूत करता है, शादी के उत्सवों को ऊर्जा देता है, और सांस्कृतिक परंपराओं को जीवित रखता है।", time: "21 अप्रैल - शाम 7 बजे शुरू" },
+                { title: "हल्दी", description: "हल्दी पार्टी एक प्री-वेडिंग अनुष्ठान है जहां आशीर्वाद और बुराई से सुरक्षा के लिए दुल्हन और दूल्हे पर हल्दी का पेस्ट लगाया जाता है।<br>यह समारोह सकारात्मकता, समृद्धि और नई शुरुआत का प्रतीक है, साथ ही शादी से पहले आनंदमय उत्सव में परिवारों को एक साथ लाता है।", time: "25 अप्रैल - शाम 5 बजे शुरू" },
+                {
+                    title: "चूड़ा/सांठ", description: "चूड़ा या सांठ समारोह एक पारंपरिक पंजाबी प्री-वेडिंग अनुष्ठान है, मुख्य रूप से दुल्हन के लिए। इसमें मामा और मामी द्वारा दुल्हन को लाल और सफेद चूड़ियों का एक सेट (चूड़ा) उपहार में देना शामिल है, जो वैवाहिक समृद्धि और आशीर्वाद का प्रतीक है।<br>चूड़ियों को बड़ों द्वारा आशीर्वाद दिया जाता है और शुभ के प्रतीक के रूप में पहना जाता है।<br><br>सांठ समारोह, चूड़ा अनुष्ठान के साथ या उससे पहले किया जाता है, इसमें दुल्हन के शरीर पर सरसों के तेल का मिश्रण लगाना शामिल है ताकि उसे विवाह के लिए शुद्ध और तैयार किया जा सके।<br>यह अनुष्ठान प्यार, प्रार्थनाओं और उत्सव की भावना से भरा होता है, जो दुल्हन के विवाहित जीवन में प्रवेश को चिह्नित करता है।", time: "26 अप्रैल - सुबह 11 बजे शुरू"
+                },
+                {
+                    title: "हिंदू विवाह समारोह", description: `मंडप विवाह समारोह एक पारंपरिक हिंदू विवाह अनुष्ठान है जो एक पवित्र मंडप (छतरी) के नीचे आयोजित किया जाता है, जो जोड़े के नए घर का प्रतीक है।<br>मुख्य अनुष्ठानों में शामिल हैं:
+                <br><br>
+                <ul>
+                    <li><b>गणेश पूजा</b> - सुचारू समारोह के लिए भगवान गणेश का आशीर्वाद मांगना।</li>
+                    <br>
+                    <li><b>कन्यादान</b> - दुल्हन के माता-पिता दूल्हे को उसका हाथ देते हैं, जो विश्वास और जिम्मेदारी का प्रतीक है।</li>
+                    <br>
+                    <li><b>मंगल फेरे</b> - जोड़ा प्रेम और कर्तव्य की प्रतिज्ञा करते हुए पवित्र अग्नि (अग्नि) के चारों ओर चार से सात बार घूमता है।</li>
+                    <br>
+                    <li><b>सिंदूर और मंगलसूत्र</b> - दूल्हा सिंदूर लगाता है और पवित्र हार (मंगलसूत्र) बांधता है, जो दुल्हन की वैवाहिक स्थिति को चिह्नित करता है।</li>
+                    <br>
+                    <li><b>सप्तपदी</b> - जोड़ा साथ में सात कदम चलता है, प्रत्येक एक सामंजस्यपूर्ण जीवन के लिए एक प्रतिज्ञा का प्रतिनिधित्व करता है।</li>
+                </ul>
+                <br>
+                समारोह का समापन बड़ों के आशीर्वाद के साथ होता है, जो प्रेम और प्रतिबद्धता में दो आत्माओं के मिलन का जश्न मनाता है।`, time: "27 अप्रैल - सुबह 11 बजे शुरू"
+                },
+                { title: "सिविल समारोह और रिसेप्शन", description: "एक विवाह आशीर्वाद समारोह एक प्रतीकात्मक और आध्यात्मिक आयोजन है जहां एक जोड़े को परिवार, दोस्तों या धार्मिक व्यक्तियों से आशीर्वाद प्राप्त होता है।<br><br>रिसेप्शन पार्टी इसके बाद होती है, जो नवविवाहित जोड़े के आनंदमय जश्न को चिह्नित करती है। इसमें भव्य प्रवेश, भाषण, रात्रिभोज, नृत्य और मनोरंजन शामिल हैं।<br>केक काटना, पहला नृत्य और टोस्ट जैसी परंपराएं एक उत्सवी माहौल बनाती हैं, जो मेहमानों को जोड़े के मिलन का स्टाइल से जश्न मनाने की अनुमति देती हैं।", time: "28 अप्रैल - दोपहर 2 बजे शुरू" }
+            ]
+        },
+        qanda: {
+            title: "प्रश्न और उत्तर",
+            subtitle: "",
+            description: "हमसे पूछे गए कुछ सामान्य प्रश्नों के उत्तर।<br>यदि आपके कोई अतिरिक्त प्रश्न हैं, तो कृपया दुल्हन या दूल्हे से संपर्क करें।",
+            events: [
+                { title: "मुझे क्या उपहार देना चाहिए?", description: "किसी भी अवसर के लिए उपहार की आवश्यकता नहीं है, यदि आप बाध्य महसूस करते हैं, तो कृपया हिंदू मंडप समारोह के लिए फूल या हेडसर हाउस के लिए एक लिफाफा लाएं।" },
+                { title: "मैं कहां पार्क कर सकता हूं?", description: "हेडसर हाउस:<br>साइट पर पार्किंग उपलब्ध है (अतिरिक्त पार्किंग घर के पीछे उपलब्ध है, कृपया संकेतों का पालन करें)<br><br>स्लाउ हिंदू मंदिर और बेलिस हाउस:<br>साइट पर पार्किंग उपलब्ध है<br><br>कृपया अन्य सभी कार्यक्रमों के लिए स्ट्रीट पार्किंग का उपयोग करें" },
+                { title: "मुझे क्या पहनना चाहिए?", description: "कृपया वेबसाइट के 'पोशाक' पेज को देखें।" },
+                { title: "क्या मैं समारोह के दौरान तस्वीरें ले सकता हूं?", description: "आप सभी कार्यक्रमों पर दिन के दौरान फोटो और वीडियो लेने के लिए स्वागत हैं, लेकिन समारोहों को विशेष रूप से आनंद लेने के लिए, हमने अपने विशेष क्षणों को कैप्चर करने के लिए पेशेवर विडियोग्राफर और फोटोग्राफर किराए पर लिए हैं।<br><br>हम निश्चित रूप से ये सभी तस्वीरें साझा करेंगे, हम आपके चेहरे देखना चाहते हैं, न कि आपके फोन।<br>धन्यवाद!" },
+                { title: "क्या प्लस वन या बच्चों की अनुमति है?", description: "दुर्भाग्य से जगह की कमी के कारण, मेहमानों की सूची पहले से ही तय कर दी गई है।<br><br>यदि कोई विशेष परिस्थिति है, तो कृपया दुल्हन और दूल्हे से संपर्क करें।" },
+                { title: "क्या आहार प्रतिबंधों या एलर्जी वाले मेहमानों के लिए भोजन विकल्प होंगे?", description: "हमारा कैटरर भारतीय शाकाहारी और मांसाहारी विकल्पों का चयन प्रदान कर रहा है।<br><br>कृपया अपनी आहार आवश्यकता या एलर्जी को निर्दिष्ट करने के लिए दुल्हन और दूल्हे से संपर्क करें, ताकि हम पहले से ही आपकी जरूरतों का ध्यान रख सकें!" }
+            ]
+        },
+        about: {
+            title: "हमारी कहानी",
+            subtitle: "हमारे बारे में थोड़ा!",
+            body: [
+                `किसी ने मुझे एक बार यूनिवर्सिटी टेस्को में मिकल के शब्द-खेल करते हुए स्नैपचैट वीडियो दिखाया था और मुझे याद है कि मैंने सोचा \"अब यह लड़का...यह लड़का मज़ेदार है\"। वास्तव में, हम महीनों बाद आपसी दोस्तों के माध्यम से स्वानसी बे बीच पर मिले।
+            <br>जब हम मिले, मिकल को लगा कि मैं मज़ेदार लेकिन परेशान करने वाली थी, जबकि मैं पहली नज़र से ही दीवानी हो गई थी। वास्तव में, हम उस समय संपर्क में नहीं रहे और केवल उस गर्मी में स्नैपचैट के माध्यम से एक-दूसरे से बात करना शुरू किया, जब हम दोनों अलग-अलग यूरोप की यात्रा पर थे।`,
+                `हम हर दिन बात करते थे और यह बस इतना आसान था।<br>हम बस एक-दूसरे के साथ अच्छे से जुड़ गए, हमारा हास्य बिल्कुल एक जैसा था और हम एक-दूसरे से बात करने का वास्तव में आनंद लेते थे। यह कभी भी वास्तव में दूर नहीं गया, न तब जब मिकल ने एक साल इंडस्ट्री में किया और मैं यूनि में अपने अंतिम वर्ष में थी। न तब जब मैंने स्नातक किया और मिकल ने अपना बैचलर्स पूरा किया। विशेष रूप से, तब नहीं जब मिकल अपने मास्टर्स के लिए फिनलैंड चला गया। हम हमेशा बात करने के लिए एक विषय पाते थे या बस संतुष्ट होकर चुप्पी में अपनी चीजों पर काम करते थे।`,
+                `यह समय निश्चित रूप से सबसे आसान नहीं था, विशेष रूप से एक वैश्विक महामारी के साथ। इसने वास्तव में हमें सिखाया कि एक ही कमरे में होने की आवश्यकता के बिना एक-दूसरे की देखभाल कैसे करनी है। (हालांकि, मैं बहुत खुश हूं कि वह समय अब खत्म हो गया है)`,
+                `अब, हम कभी भी एक-दूसरे को परेशान कर सकते हैं। अब जब हमारा जीवन हवाई जहाज की यात्रा दूर नहीं है, हम अपने पसंदीदा व्यंजन - सुशी खाने के लिए बाहर जाना पसंद करते हैं। अधिकांश सप्ताहांत में आप हमें बोर्ड गेम्स खेलते, टहलते या बस साथ बैठे हुए पाएंगे, जबकि मैं पढ़ती हूं और मिकल अपने नवीनतम प्रोजेक्ट पर काम करता है।
+        `
+            ],
+            images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
+        }
+    }
 };
