@@ -16,7 +16,7 @@ export const translations = {
         attire: {
             title: "Attire",
             subtitle: "What should I wear?",
-            description: "We gathered mood boards to inspire your outfits for the wedding events.<br><br>Wearing Asian Clothes is absolutely not required. Please come wearing outfits you are comfortable in. ",
+            description: "We gathered mood boards to inspire your outfits for the wedding events.<br><br>Wearing Asian Clothes is absolutely not required. Please come wearing outfits you are comfortable in.<br><br>Please note, due to space and tradition, we were unable to invite everyone to all events.<br>Please refer to your individual invites for attendance.<br>Thank you for understanding!",
             events: [
                 {
                     eventTitle: "Ramayan Prayer",
