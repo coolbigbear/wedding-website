@@ -13,7 +13,7 @@ export function MobileMenu({ children }) {
 		<Sheet open={open} onOpenChange={setOpen}>
 			<SheetTrigger asChild>
 				<div className="flex items-center">
-					<Button variant="ghost" size="icon" className="md:hidden w-11 h-11">
+					<Button variant="ghost" size="icon" className="xl:hidden w-11 h-11 md:w-16 md:h-16">
 						<Menu className="h-5 w-5" />
 						<span className="sr-only">Toggle menu</span>
 					</Button>
@@ -23,7 +23,9 @@ export function MobileMenu({ children }) {
 				<div className="flex h-full flex-col justify-between">
 					<div className="mt-8 flex flex-col gap-4">
 						{children.map((child, index) => (
-							<SheetTrigger asChild key={index}>{child}</SheetTrigger>
+							<SheetTrigger asChild key={index}>
+								{child}
+							</SheetTrigger>
 						))}
 					</div>
 					<div className="flex items-center"></div>
