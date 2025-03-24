@@ -19,7 +19,6 @@ export function Header({ setLanguage }) {
 		useEffect(() => {
 			const element = document.getElementById(`${banner}`);
 			if (element) {
-				console.log(window.getComputedStyle(element).backgroundColor);
 				setBannerColor(window.getComputedStyle(element).backgroundColor);
 			} else {
 				setBannerColor(bg_amber_800);
@@ -35,7 +34,7 @@ export function Header({ setLanguage }) {
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-around md:justify-between md:px-10 md:pt-4">
 				<div className="flex m-4 basis-[0] flex-grow">
-					<Link to="/" >
+					<Link to="/">
 						<div className="p-1 bg-white shadow-md rounded-xl">
 							<Button
 								variant="ghost"
@@ -53,8 +52,8 @@ export function Header({ setLanguage }) {
 							<Button
 								className={`focus:outline-none hover:text-white visited:text-black text-black px-4 bg-white shadow-none 
 							hover:border-none hover:bg-[var(--hover-bg-color)]`}
-								style={{ '--hover-bg-color': bannerColor }}
-								>{link.title}
+								style={{ '--hover-bg-color': bannerColor }}>
+								{link.title}
 							</Button>
 						</Link>
 					))}

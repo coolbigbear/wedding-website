@@ -7,8 +7,8 @@ const About = ({ language, bgcolor }) => {
 		<div className="flex flex-col bg-white font-serif">
 			<Title title={language.title} subtitle={language.subtitle} bgcolor={bgcolor} />
 			{language.body.map((body, index) => (
-				<div className="relative w-full mt-5">
-					<PolaroidText text={body} imageUrl={language.images[index]} left={index % 2 == 0} />
+				<div key={index} className="relative w-full mt-5">
+					<PolaroidText key={index} text={body} imageUrl={language.images[index]} left={index % 2 == 0} />
 				</div>
 			))}
 		</div>
