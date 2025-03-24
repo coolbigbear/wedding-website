@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
 	Heart,
 	Utensils,
@@ -11,8 +11,10 @@ import {
 	CakeSlice,
 } from 'lucide-react';
 import TimelineCard from './TimelineCard';
+import { useIsVisible } from './hooks/useIsVisible';
 
 const WeddingTimeline = ({ itinerary }) => {
+
 	function useMatchHeight(timelineContainer, timelineCard, index) {
 		const [height, setHeight] = useState('auto');
 
@@ -68,6 +70,8 @@ const WeddingTimeline = ({ itinerary }) => {
 
 	const topLineOffset = useMatchHeight('timeline', 'timeline-card', 0);
 	const bottomLineOffset = useMatchHeight('timeline', 'timeline-card', -1);
+	const timeLineLine = useRef();
+	const isVisibleTimelineLine = useIsVisible(timeLineLine);
 
 	return (
 		<div className="flex w-full flex-col items-center mb-14 overflow-hidden">
@@ -77,7 +81,11 @@ const WeddingTimeline = ({ itinerary }) => {
 				<div className="relative">
 					{/* Main timeline vertical line */}
 					<div
-						className={`absolute left-1/2 top-[var(--top-cutoff)] bottom-[var(--bottom-cutoff)] w-2 bg-amber-900 transform -translate-x-1/2`}
+						ref={timeLineLine}
+						className={`absolute left-1/2 top-[var(--top-cutoff)] bottom-[var(--bottom-cutoff)] w-2 bg-amber-900 transform -translate-x-1/2
+							transition-opacity ease-in duration-700
+							${isVisibleTimelineLine ? 'opacity-100' : 'opacity-0'} 
+							`}
 						style={{
 							'--top-cutoff': topLineOffset,
 							'--bottom-cutoff': bottomLineOffset,
@@ -87,12 +95,16 @@ const WeddingTimeline = ({ itinerary }) => {
 					<div className="md:space-y-8  mx-2 pb-5 overflow-hidden">
 						{itinerary.events.map((event, index) => {
 							const isEven = index % 2 === 0;
-
+							const timeLineEvent = useRef();
+							const isVisible = useIsVisible(timeLineEvent);
 							return (
 								<div
 									id="timeline"
+									ref={timeLineEvent}
 									key={index}
-									className={`relative flex items-center ${isEven ? 'justify-start' : 'justify-end'}`}>
+									className={`relative flex items-center transition-opacity ease-in duration-700
+									${isEven ? 'justify-start' : 'justify-end'}
+									${isVisible ? 'opacity-100' : 'opacity-0'} `}>
 									{/* Event content - LEFT SIDE */}
 									{isEven && <TimelineCard event={event} left={true} />}
 
