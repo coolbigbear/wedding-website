@@ -35,12 +35,12 @@ export function Header({ setLanguage }) {
 		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
 			<div className="flex h-fit w-full justify-around md:justify-between md:px-10 md:pt-4">
 				<div className="flex m-4 basis-[0] flex-grow">
-					<Link to="/">
-						<div className="p-2 bg-white shadow-md rounded-xl">
+					<Link to="/" >
+						<div className="p-1 bg-white shadow-md rounded-xl">
 							<Button
 								variant="ghost"
 								size="icon"
-								className={`focus:outline-none text-black w-11 h-11 md:w-16 md:h-16 hover:bg-[var(--hover-bg-color)] hover:text-white`}
+								className={`focus:outline-none text-black w-9 h-9 md:w-14 md:h-14 hover:bg-[var(--hover-bg-color)] hover:text-white`}
 								style={{ '--hover-bg-color': bannerColor }}>
 								<Home />
 							</Button>
