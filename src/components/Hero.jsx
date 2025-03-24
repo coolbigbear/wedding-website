@@ -14,7 +14,7 @@ const Hero = ({ title, subtitle, homepage }) => {
 			) : (
 				''
 			)}
-			<div className="z-10 px-4 max-w-4xl mx-auto mt-[15dvh] md:pt-[5vh]">
+			<div className="z-10 px-4 max-w-4xl mx-auto mt-[15svh] md:pt-[5vh]">
 				<h1 className="text-5xl md:text-7xl text-amber-800 animate-fade-in-down font-[ephesis] outline-black">
 					{title ? title : language.title}
 				</h1>
