@@ -5,7 +5,7 @@ const LanguageSelector = ({ setLanguage, bannerColor }) => {
 		return (
 			<TabsTrigger
 				value={`${language}`}
-				className="focus:outline-none text-sm md:text-lg data-[state=active]:bg-[var(--hover-bg-color)] data-[state=active]:text-white w-full h-full hover:border-none hover:bg-[var(--hover-bg-color)] hover:text-white"
+				className="focus:outline-none text-sm md:text-lg data-[state=active]:bg-[var(--hover-bg-color)] data-[state=active]:text-white w-full h-full hover:border-none border-none hover:bg-[var(--hover-bg-color)] hover:text-white"
 				style={{ '--hover-bg-color': bannerColor }}>
 				{supportsFlagEmoji() ? (
 					<div>
