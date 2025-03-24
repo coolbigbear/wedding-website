@@ -19,8 +19,8 @@ export function MobileMenu({ children }) {
 					</Button>
 				</div>
 			</SheetTrigger>
-			<SheetContent side="right" className="w-[240px] sm:w-[300px]">
-				<div className="flex h-full flex-col justify-between">
+			<SheetContent side="right" className="absolute w-[240px] sm:w-[300px] h-screen">
+				<div className="flex h-fit flex-col justify-between">
 					<div className="mt-8 flex flex-col gap-4">
 						{children.map((child, index) => (
 							<SheetTrigger asChild key={index}>
