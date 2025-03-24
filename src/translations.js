@@ -154,7 +154,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Jaggo",
-                    eventDescription: "Błysk i glamour! Przynieś kolor i coś, w czym możesz tańczyć!<br><br>Jeśli masz wystarczająco długie włosy i chciałbyś, warkocz jest tradycyjny!",
+                    eventDescription: "Błysk i glamour! Przynieś kolor i coś, w czym możesz tańczyć!<br><br>Jeśli masz wystarczająco długie włosy możesz zapleść warkocz, jest on tradycyjny dla tej imprezy.",
                     images: ["/images/attire/jaggo-1.png", "/images/attire/jaggo-2.png", "/images/attire/jaggo-3.png", "/images/attire/jaggo-4.png"]
                 },
                 {
@@ -201,7 +201,7 @@ export const translations = {
                 {
                     title: "Modlitwa Ramayan", description: "Hindusi odprawiają modlitwę Ramayan przed ślubem, aby prosić o błogosławieństwo dla silnego i harmonijnego małżeństwa. Historia o Ramie i Sicie symbolizuje miłość, wierność i obowiązek, prowadząc pary w ich małżeńskiej podróży.<br><br>Modlitwa przywołuje boską ochronę, promuje jedność rodziny, uczy elastyczności w małżeństwie i duchowo oczyszcza uroczystość, zapewniając pomyślny początek życia małżeńskiego.", time: "18 kwietnia - Rozpoczęcie o 10:00"
                 },
-                { title: "Jaggo", description: "Pendżabowie organizują przyjęcie Jaggo jako energetyczną uroczystość przedślubną, aby szerzyć radość, ekscytację i błogosławieństwa przed ślubem. \"Jaggo\" oznacza \"obudź się\", symbolizując noc świętowania, gdy rodzina i przyjaciele nie śpią do późna, śpiewając, tańcząc i nosząc ozdobione garnki (gaffa) ze świecami lub światłami.<br><br>Tradycyjnie krewni odwiedzają domy sąsiadów, zapraszając ich na ślub, wykonując Boliyan (pieśni ludowe) i tańcząc do rytmów dhol.<br>Wydarzenie wzmacnia więzi rodzinne, energizuje uroczystości ślubne i podtrzymuje żywe tradycje kulturowe.", time: "21 kwietnia - Rozpoczęcie o 19:00" },
+                { title: "Jaggo", description: "Pendżabowie organizują przyjęcie Jaggo jako energetyczną uroczystość przedślubną, aby szerzyć radość, ekscytację i błogosławieństwa przed ślubem. \"Jaggo\" oznacza \"obudź się\", symbolizując noc świętowania, gdy rodzina i przyjaciele nie śpią do późna, śpiewając, tańcząc i nosząc ozdobione garnki (gaffa) ze świecami lub światłami.<br><br>Tradycyjnie krewni odwiedzają domy sąsiadów, zapraszając ich na ślub, wykonując Boliyan (pieśni ludowe) i tańcząc do rytmów dhol.<br>Wydarzenie wzmacnia więzi rodzinne, energetyzuje uroczystości ślubne i podtrzymuje żywe tradycje kulturowe.", time: "21 kwietnia - Rozpoczęcie o 19:00" },
                 { title: "Haldi", description: "Przyjęcie Haldi to przedślubny rytuał, podczas którego pasta z kurkumy jest nakładana na pannę młodą i pana młodego dla błogosławieństwa i ochrony przed złem.<br>Ceremonia symbolizuje pozytywność, dobrobyt i nowe początki, jednocześnie łącząc rodziny w radosnym świętowaniu przed ślubem.", time: "25 kwietnia - Rozpoczęcie o 17:00" },
                 {
                     title: "Churra\/Saanth", description: "Ceremonia Churra lub Saanth to tradycyjny pendżabski rytuał przedślubny, głównie dla panny młodej. Obejmuje on wuja ze strony matki (mama) i ciotkę (mami), którzy ofiarowują pannie młodej zestaw czerwonych i białych bransoletek (churra), symbolizujących małżeński dobrobyt i błogosławieństwa.<br>Bransoletki są błogosławione przez starszych i noszone jako znak szczęścia.<br><br>Ceremonia Saanth, wykonywana obok lub przed rytuałem Churra, obejmuje nakładanie mieszanki oleju musztardowego na ciało panny młodej, aby oczyścić ją i przygotować do małżeństwa.<br>Ten rytuał jest pełen miłości, modlitw i świątecznego ducha, oznaczając przejście panny młodej do życia małżeńskiego.", time: "26 kwietnia - Rozpoczęcie o 11:00"
@@ -210,7 +210,7 @@ export const translations = {
                     title: "Hinduska ceremonia ślubna", description: `Ceremonia ślubna Mandap to tradycyjny hinduski rytuał ślubny odbywający się pod świętym baldachimem (mandap), symbolizującym nowy dom pary.<br>Kluczowe rytuały obejmują:
                     <br><br>
                     <ul>
-                        <li><b>Ganesh Puja</b> - Prośba o błogosławieństwo Pana Ganesha dla płynnej ceremonii.</li>
+                        <li><b>Ganesh Puja</b> - Prośba o błogosławieństwo boga Ganesh aby zapewnił szczęście parze małżeńskiej i usunął wszelkie przeszkody na jakie mogą się natknąć.</li>
                         <br>
                         <li><b>Kanyadaan</b> - Rodzice panny młodej oddają jej rękę panu młodemu, symbolizując zaufanie i odpowiedzialność.</li>
                         <br>
