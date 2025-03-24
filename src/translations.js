@@ -145,7 +145,7 @@ export const translations = {
         attire: {
             title: "Strój",
             subtitle: "Co powinienem założyć?",
-            description: "Przygotowaliśmy tablice inspiracji, aby pomóc w doborze strojów na uroczystości ślubne.<br><br>Noszenie azjatyckich ubrań nie jest absolutnie wymagane. Prosimy o założenie strojów, w których czujecie się komfortowo.",
+            description: "Przygotowaliśmy tablice inspiracji, aby pomóc w doborze strojów na uroczystości ślubne.<br><br>Noszenie indyjskich ubrań nie jest wymagane. Prosimy o założenie strojów, w których czujecie się komfortowo.",
             events: [
                 {
                     eventTitle: "Modlitwa Ramayan",
@@ -227,16 +227,16 @@ export const translations = {
             ]
         },
         qanda: {
-            title: "Pytania i odpowiedzi",
+            title: "Pytania i Odpowiedzi",
             subtitle: "",
             description: "Kilka odpowiedzi na często zadawane pytania.<br>Jeśli masz dodatkowe pytania, skontaktuj się z panną młodą lub panem młodym.",
             events: [
                 { title: "Co powinienem podarować?", description: "Prezenty nie są wymagane na żadną okazję, jeśli jednak czujesz się zobowiązany, prosimy o przyniesienie kwiatów na hinduską ceremonię Mandap lub koperty do Hedsor House." },
-                { title: "Gdzie mogę zaparkować?", description: "Hedsor House:<br>Parking dostępny na miejscu (dodatkowy parking znajduje się za domem, prosimy o podążanie za znakami)<br><br>Slough Hindu Temple i Baylis House:<br>Parking dostępny na miejscu<br><br>Prosimy o korzystanie z parkowania ulicznego dla wszystkich innych wydarzeń" },
+                { title: "Gdzie mogę zaparkować?", description: "Hedsor House:<br>Parking dostępny na miejscu (dodatkowy parking znajduje się za domem, prosimy o podążanie za znakami)<br><br>Slough Hindu Temple i Baylis House:<br>Parking dostępny na miejscu<br><br>Prosimy o korzystanie z parkowania na ulicy dla wszystkich innych wydarzeń" },
                 { title: "Co powinienem nosić?", description: "Prosimy o zapoznanie się ze stroną <a href='#/attire'>Strój</a>." },
                 { title: "Czy mogę robić zdjęcia podczas ceremonii?", description: "Możesz robić zdjęcia i nagrywać filmy w ciągu dnia na wszystkich wydarzeniach, ale aby szczególnie cieszyć się ceremoniami, wynajęliśmy profesjonalnych kamerzystów i fotografów, aby uchwycić nasze wyjątkowe chwile.<br><br>Absolutnie będziemy dzielić się tymi zdjęciami ze wszystkimi, mamy nadzieję zobaczyć wasze twarze, a nie wasze telefony.<br>Dziękujemy!" },
-                { title: "Czy osoby towarzyszące lub dzieci są dozwolone?", description: "Niestety, ze względu na ograniczoną przestrzeń, lista gości została zamknięta z wyprzedzeniem.<br><br>Prosimy o kontakt z Panną Młodą i Panem Młodym, jeśli istnieją szczególne okoliczności." },
-                { title: "Czy będą opcje posiłków dla gości z ograniczeniami dietetycznymi lub alergiami?", description: " Nasz kucharz zapewnia wybór indyjskich opcji wegetariańskich i niewegetariańskich.<br><br>Prosimy o kontakt z panną młodą i panem młodym, aby określić swoje wymagania dietetyczne lub alergie, abyśmy mogli sprostać Twoim potrzebom z wyprzedzeniem!" }
+                { title: "Czy osoby towarzyszące lub dzieci są dozwolone?", description: "Niestety, ze względu na ograniczoną przestrzeń, lista gości została zamknięta z wyprzedzeniem.<br><br>Prosimy o kontakt z panną młodą i panem młodym, jeśli istnieją szczególne okoliczności." },
+                { title: "Czy będą opcje posiłków dla gości z ograniczeniami dietetycznymi lub alergiami?", description: " Nasz kucharz zapewnia wybór indyjskich opcji wegetariańskich i niewegetariańskich.<br><br>Prosimy o kontakt z panną młodą i panem młodym, aby określić swoje wymagania dietetyczne lub alergie, abyśmy mogli sprostać twoim potrzebom z wyprzedzeniem!" }
             ]
         },
         about: {
