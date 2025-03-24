@@ -60,7 +60,7 @@ export function Header({ setLanguage }) {
 							<Button
 								variant="ghost"
 								size="icon"
-								className={`focus:outline-none text-black w-9 h-9 md:w-14 md:h-14 hover:bg-[var(--hover-bg-color)] hover:text-white`}
+								className={`hover:border-none focus:outline-none text-black w-9 h-9 md:w-14 md:h-14 hover:bg-[var(--hover-bg-color)] hover:text-white`}
 								style={{ '--hover-bg-color': bannerColor }}>
 								<Home />
 							</Button>
