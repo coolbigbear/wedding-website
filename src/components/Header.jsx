@@ -12,7 +12,7 @@ export function Header({ setLanguage }) {
 	let links = [...language.homeCards].sort((a, b) => a.order - b.order);
 
 	function getBannerColor(banner) {
-		const bg_amber_800 = "rgb(120, 53, 15)";
+		const bg_amber_800 = 'rgb(120, 53, 15)';
 		const [bannerColor, setBannerColor] = useState(bg_amber_800);
 		const history = useNavigate();
 
@@ -28,10 +28,31 @@ export function Header({ setLanguage }) {
 		return bannerColor;
 	}
 
-	let bannerColor = `${getBannerColor("banner")}`;
+	function autoHideNavbar() {
+		useEffect(() => {
+			let prevScrollPos = window.scrollY;
+			const navbar = document.getElementById('header');
+
+			// Auto-hide Navbar on scroll
+			window.onscroll = function () {
+				let currentScrollPos = window.pageYOffset;
+				if (prevScrollPos > currentScrollPos) {
+					navbar.style.transform = 'translateY(0)';
+				} else {
+					navbar.style.transform = 'translateY(-100%)';
+				}
+				prevScrollPos = currentScrollPos;
+			};
+		}, [window.screenY]);
+	}
+
+	autoHideNavbar()
+	let bannerColor = `${getBannerColor('banner')}`;
 
 	return (
-		<header className="flex sticky top-0 z-50 w-full items-center bg-transparent">
+		<header
+			id="header"
+			className="flex sticky top-0 z-50 w-full items-center bg-transparent transition-transform duration-700">
 			<div className="flex h-fit w-full justify-around md:justify-between md:px-10 md:pt-4">
 				<div className="flex m-4 basis-[0] flex-grow">
 					<Link to="/">
@@ -51,7 +72,7 @@ export function Header({ setLanguage }) {
 						<Link to={`${link.link}`} key={index}>
 							<Button
 								className={`focus:outline-none hover:text-white visited:text-black text-black px-4 bg-white shadow-none 
-							hover:border-none hover:bg-[var(--hover-bg-color)]`}
+							hover:border-none border-none hover:bg-[var(--hover-bg-color)]`}
 								style={{ '--hover-bg-color': bannerColor }}>
 								{link.title}
 							</Button>
