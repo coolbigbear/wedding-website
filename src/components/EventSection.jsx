@@ -1,8 +1,10 @@
 'use client';
 
+import { useRef } from 'react';
 import { DescriptionCard } from './DescriptionCard';
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import Autoscroll from 'embla-carousel-auto-scroll';
+import { useIsVisible } from './hooks/useIsVisible';
 
 export default function EventSection({ title, description, images, bgcolor, flowDirection = 'order-last' }) {
 	const carousel = (
@@ -34,8 +36,16 @@ export default function EventSection({ title, description, images, bgcolor, flow
 		</Carousel>
 	);
 
+	const ref = useRef();
+	const isVisible = useIsVisible(ref);
+
 	return (
-		<div className="mb-20 h-full">
+		<div
+			ref={ref}
+			className={`mb-20 h-full
+				transition-opacity ease-in duration-700
+				${isVisible ? 'opacity-100' : 'opacity-0'}
+			`}>
 			<div className={`flex flex-col md:grid md:grid-cols-2 md:gap-10 h-full`}>
 				<DescriptionCard title={title} description={description} bgcolor={bgcolor} />
 				<div className={`h-full mx-10 md:${flowDirection}`}>{carousel}</div>
