@@ -159,12 +159,12 @@ export const translations = {
                 },
                 {
                     eventTitle: "Haldi",
-                    eventDescription: "Kolorystyka zazwyczaj obejmuje dużo żółtego i pomarańczowego, symbolizując tradycyjną kurkumę nakładaną na Pannę Młodą i Pana Młodego.<br><br>Pastelowe kolory też są świetne do noszenia, ale prosimy o założenie czegoś, czego ewentualne zabrudzenie nie będzie problemem. Z góry przepraszamy.",
+                    eventDescription: "Kolorystyka zazwyczaj obejmuje dużo żółtego i pomarańczowego, symbolizując tradycyjną kurkumę nakładaną na pannę młodą i pana młodego.<br><br>Pastelowe kolory też są świetne do noszenia, ale prosimy o założenie czegoś, czego ewentualne zabrudzenie nie będzie problemem. Z góry przepraszamy.",
                     images: ["/images/attire/haldi-1.png", "/images/attire/haldi-2.png", "/images/attire/haldi-3.png", "/images/attire/haldi-4.png"]
                 },
                 {
                     eventTitle: "Churra/Saanth",
-                    eventDescription: "Strój casual jest mile widziany, ponieważ jest to mała, ale symboliczna ceremonia.",
+                    eventDescription: "Codzienne ubrania są mile widziane, ponieważ jest to mała, ale symboliczna ceremonia.",
                     images: ["/images/attire/churra-1.png", "/images/attire/churra-2.png", "/images/attire/churra-3.png", "/images/attire/churra-4.png"]
                 },
                 {
@@ -174,7 +174,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Ceremonia cywilna i przyjęcie",
-                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się podczas przyjęcia z napojami.<br><br>Będzie to formalne wydarzenie black tie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty, biały i czerwony są zarezerwowane dla orszaku Panny Młodej, a smokingi są zarezerwowane dla orszaku Pana Młodego. Dziękujemy!",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie black tie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty, biały i czerwony są zarezerwowane dla orszaku panny młodej, a smokingi są zarezerwowane dla orszaku pana młodego. Dziękujemy!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
@@ -196,7 +196,7 @@ export const translations = {
         events: {
             title: "Inne Wydarzenia",
             subtitle: "Co symbolizują wszystkie te funkcje?",
-            description: "Zebraliśmy krótkie opisy wszystkich wydarzeń, aby pomóc Ci lepiej zrozumieć ich znaczenie.<br><br>Należy pamiętać, że ze względu na ograniczoną przestrzeń i tradycję, nie mogliśmy zaprosić wszystkich na wszystkie wydarzenia.<br>Prosimy o zapoznanie się z indywidualnymi zaproszeniami dotyczącymi uczestnictwa.<br>Dziękujemy za zrozumienie!",
+            description: "Zebraliśmy krótkie opisy wszystkich wydarzeń, aby pomóc ci lepiej zrozumieć ich znaczenie.<br><br>Należy pamiętać, że ze względu na ograniczoną przestrzeń i tradycję, nie mogliśmy zaprosić wszystkich na wszystkie wydarzenia.<br>Prosimy o zapoznanie się z indywidualnymi zaproszeniami dotyczącymi uczestnictwa.<br>Dziękujemy za zrozumienie!",
             events: [
                 {
                     title: "Modlitwa Ramayan", description: "Hindusi odprawiają modlitwę Ramayan przed ślubem, aby prosić o błogosławieństwo dla silnego i harmonijnego małżeństwa. Historia o Ramie i Sicie symbolizuje miłość, wierność i obowiązek, prowadząc pary w ich małżeńskiej podróży.<br><br>Modlitwa przywołuje boską ochronę, promuje jedność rodziny, uczy elastyczności w małżeństwie i duchowo oczyszcza uroczystość, zapewniając pomyślny początek życia małżeńskiego.", time: "18 kwietnia - Rozpoczęcie o 10:00"
@@ -236,7 +236,7 @@ export const translations = {
                 { title: "Co powinienem nosić?", description: "Prosimy o zapoznanie się ze stroną <a href='#/attire'>Strój</a>." },
                 { title: "Czy mogę robić zdjęcia podczas ceremonii?", description: "Możesz robić zdjęcia i nagrywać filmy w ciągu dnia na wszystkich wydarzeniach, ale aby szczególnie cieszyć się ceremoniami, wynajęliśmy profesjonalnych kamerzystów i fotografów, aby uchwycić nasze wyjątkowe chwile.<br><br>Absolutnie będziemy dzielić się tymi zdjęciami ze wszystkimi, mamy nadzieję zobaczyć wasze twarze, a nie wasze telefony.<br>Dziękujemy!" },
                 { title: "Czy osoby towarzyszące lub dzieci są dozwolone?", description: "Niestety, ze względu na ograniczoną przestrzeń, lista gości została zamknięta z wyprzedzeniem.<br><br>Prosimy o kontakt z panną młodą i panem młodym, jeśli istnieją szczególne okoliczności." },
-                { title: "Czy będą opcje posiłków dla gości z ograniczeniami dietetycznymi lub alergiami?", description: " Nasz kucharz zapewnia wybór indyjskich opcji wegetariańskich i niewegetariańskich.<br><br>Prosimy o kontakt z panną młodą i panem młodym, aby określić swoje wymagania dietetyczne lub alergie, abyśmy mogli sprostać twoim potrzebom z wyprzedzeniem!" }
+                { title: "Czy będą opcje posiłków dla gości z ograniczeniami dietetycznymi lub alergiami?", description: " Nasz kucharz zapewnia wybór indyjskich opcji wegetariańskich i niewegetariańskich.<br><br>Prosimy o kontakt z panną młodą i panem młodym, aby określić swoje wymagania dietetyczne lub alergie!" }
             ]
         },
         about: {
@@ -245,9 +245,9 @@ export const translations = {
             body: [
                 `Ktoś kiedyś pokazał mi filmik na Snapchacie, gdzie Michał robił kalambury w uniwersyteckim Tesco, i pamiętam, że pomyślałam \"Ten facet... ten facet jest zabawny\". Tak naprawdę spotkaliśmy się kilka miesięcy później na plaży Swansea Bay przez wspólnych znajomych.
                 <br>Kiedy się poznaliśmy, Michał uważał mnie za zabawną, ale irytującą, podczas gdy ja już byłam szaleńczo zakochana od pierwszego spojrzenia. W tamtym momencie właściwie nie utrzymywaliśmy kontaktu i zaczęliśmy rozmawiać dopiero później tego lata, gdy odkryliśmy ze oboje odbyliśmy podobne podróże po Europie.`,
-                `Rozmawialiśmy codziennie i było to po prostu tak łatwe.<br>Po prostu się zgraliśmy, mieliśmy dokładnie takie samo poczucie humoru i naprawdę lubiliśmy ze sobą rozmawiać. To nigdy tak naprawdę nie zniknęło, nawet gdy Michał odbywał roczny staż w przemyśle, a ja byłam na ostatnim roku studiów. Ani gdy ukończyłam studia i przeprowadziłam się do Farnborough, podczas gdy Michał kończył swoje studia licencjackie w Swansea. Szczególnie nie wtedy, gdy Michał przeprowadził się do Finlandii na studia magisterskie. Zawsze znajdowaliśmy temat do rozmowy lub po prostu zadowoleni siedzieliśmy w ciszy, pracując nad własnymi sprawami.`,
+                `Rozmawialiśmy codziennie i było to po prostu tak łatwe.<br>Po prostu się zgraliśmy, mieliśmy dokładnie takie samo poczucie humoru i naprawdę lubiliśmy ze sobą rozmawiać. To nigdy tak naprawdę nie zniknęło, nawet gdy Michał odbywał roczny staż w DVLA, a ja byłam na ostatnim roku studiów. Ani gdy ukończyłam studia i przeprowadziłam się do Farnborough, podczas gdy Michał kończył swoje studia licencjackie w Swansea. Szczególnie nie wtedy, gdy Michał przeprowadził się do Finlandii na studia magisterskie. Zawsze znajdowaliśmy temat do rozmowy lub po prostu zadowoleni siedzieliśmy w ciszy, pracując nad własnymi projektami.`,
                 `Ten czas zdecydowanie nie był najłatwiejszy, szczególnie podczas globalnej pandemii. Naprawdę nauczył nas, jak dbać o siebie nawzajem bez potrzeby przebywania w tym samym pomieszczeniu. (Jestem jednak bardzo szczęśliwa, że ten czas już się skończył)`,
-                `Teraz możemy się nawzajem denerwować kiedy tylko chcemy. Teraz, gdy nasze życie nie jest oddalone o lot samolotem, uwielbiamy wychodzić i jeść naszą ulubioną kuchnię - sushi. W większość weekendów można nas znaleźć grających w gry planszowe, spacerujących lub po prostu siedzących razem, gdy ja czytam, a Michał pracuje nad swoim najnowszym projektem.`,
+                `Teraz możemy się nawzajem irytować kiedy tylko chcemy. Teraz, gdy nasze życie nie jest oddalone o lot samolotem, uwielbiamy wychodzić i jeść naszą ulubioną potrawę - sushi. W większość weekendów można nas znaleźć grających w gry planszowe, spacerujących lub po prostu siedzących razem, gdy ja czytam, a Michał pracuje nad swoim najnowszym projektem.`,
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
         }
