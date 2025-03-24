@@ -66,7 +66,7 @@ export const translations = {
             ]
         },
         events: {
-            title: "Events",
+            title: "Other Events",
             subtitle: "What do all these functions symbolize?",
             description: "We've gathered short descriptions of all events to help you better understand the meaning behind them.<br><br>Please note, due to space and tradition, we were unable to invite everyone to all events.<br>Please refer to your individual invites for attendance.<br>Thank you for understanding!",
             events: [
@@ -194,7 +194,7 @@ export const translations = {
             ]
         },
         events: {
-            title: "Wydarzenia",
+            title: "Inne Wydarzenia",
             subtitle: "Co symbolizują wszystkie te funkcje?",
             description: "Zebraliśmy krótkie opisy wszystkich wydarzeń, aby pomóc Ci lepiej zrozumieć ich znaczenie.<br><br>Należy pamiętać, że ze względu na ograniczoną przestrzeń i tradycję, nie mogliśmy zaprosić wszystkich na wszystkie wydarzenia.<br>Prosimy o zapoznanie się z indywidualnymi zaproszeniami dotyczącymi uczestnictwa.<br>Dziękujemy za zrozumienie!",
             events: [
