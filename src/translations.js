@@ -129,7 +129,7 @@ export const translations = {
         }
     },
     polish: {
-        title: "Sonali i Michał",
+        title: "Sonali & Michał",
         date: "28 kwietnia 2025",
         hero: {
             invitation: "Mamy zaszczyt zaprosić Państwa na naszą ceremonię cywilną i przyjęcie w Hedsor House",
