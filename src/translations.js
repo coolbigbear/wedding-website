@@ -45,7 +45,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Civil Ceremony & Reception",
-                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold and White are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
+                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal event but bring your dancing shoes!<br><br>Colours such as Gold and White are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
