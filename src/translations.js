@@ -45,7 +45,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Civil Ceremony & Reception",
-                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold, White and Red are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
+                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold and White are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
@@ -120,7 +120,7 @@ export const translations = {
 
                 `Someone once showed me a snapchat video of Michał making puns in the University Tesco's and I remember thinking \"Now this guy...this guy is funny\". We actually met months later on Swansea Bay Beach via mutual friends.
                 <br>When we met, Michał thought I was funny but annoying whereas I was already head over heels from one look. We actually didn't keep in touch at that moment and only started talking to each other via Snapchat, later that summer, when we both happen to take separate trips around Europe.`,
-                `We spoke everyday and it was just so easy.<br>We just clicked, we had exactly the same humour and just really enjoyed talking to each other. That has never really gone away, not when Michał did a year in industry and I was in my final year at Uni. Not when I graduated and Michał finished up his Bachelors. Especially, not when Michał moved to Finland for his Masters. We always found a topic to talk about or just contently sat there in silence working on our own things.`,
+                `We spoke everyday and it was just so easy.<br>We just clicked, we had exactly the same humour and just really enjoyed talking to each other. That has never really gone away, not when Michał did a year in industry and I was in my final year at Uni. Not when I graduated and moved to Farnborough whilst Michał finished up his Bachelors in Swansea. Especially, not when Michał moved to Finland for his Masters. We always found a topic to talk about or just contently sat there in silence working on our own things.`,
                 `This time definitely wasn't the easiest, especially with a Global Pandemic. It really taught us how to care for each other without needing to be in the same room. (I am very happy that time is over though)`,
                 `Now, we can annoy each other whenever. Now that our life isn't a plane ride away, we love to go out to eat our favourite cuisine - Sushi. Most weekends you'll find us playing Boardgames, going for a walk or just sitting together whilst I read and Michał works on his newest project.
             `,
@@ -174,7 +174,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Ceremonia cywilna i przyjęcie",
-                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie black tie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty, biały i czerwony są zarezerwowane dla orszaku panny młodej, a smokingi są zarezerwowane dla orszaku pana młodego. Dziękujemy!",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie black tie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smokingi są zarezerwowane dla orszaku pana młodego. Dziękujemy!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
