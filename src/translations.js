@@ -40,12 +40,12 @@ export const translations = {
                 },
                 {
                     eventTitle: "Hindu Wedding Ceremony",
-                    eventDescription: "Shades of Pink or accents of pinks if possible.<br><br>Please refrain from wearing white as wearing white at a celebration is considered inauspicious.",
+                    eventDescription: "Shades of Pink or accents of pinks if possible.<br><br>Please refrain from wearing white as wearing white at a celebration is considered inauspicious.<br><br>Please note that you'll have to take your shoes off after entering the temple.",
                     images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
                 },
                 {
                     eventTitle: "Civil Ceremony & Reception",
-                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold, White and Red are reserved for the Bridal party whilst Tuxedo's are reserved for the Grooms Party. Thank you!",
+                    eventDescription: "As this a whole day event, you do have the option to change during the drinks reception.<br><br>This will be a formal black tie event but bring your dancing shoes!<br><br>Colours such as Gold, White and Red are reserved for the Bridal party whilst Tuxedo's are reserved for the Groom only. Thank you!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
