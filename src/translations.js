@@ -54,7 +54,7 @@ export const translations = {
         itinerary: {
             title: "Order of the day",
             events: [
-                { time: "02:00 PM", title: "Guests arrive at Hedsor House", icon: "Clock" },
+                { time: "2.00pm", title: "Guests arrive at Hedsor House", icon: "Clock" },
                 { time: "2.30pm", title: "Civil Ceremony to start", icon: "Heart" },
                 { time: "3.30pm", title: "Drinks Reception", icon: "Wine" },
                 { time: "5.00pm", title: "Guests to take their seats in Ballroom", icon: "Utensils" },
@@ -174,7 +174,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Ceremonia cywilna i przyjęcie",
-                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie black tie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smokingi są zarezerwowane dla orszaku pana młodego. Dziękujemy!",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smokingi jest zarezerwowany dla pana młodego. Dziękujemy za zrozumienie!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
@@ -306,7 +306,7 @@ export const translations = {
         itinerary: {
             title: "दिन का क्रम",
             events: [
-                { time: "दोपहर 02:00 बजे", title: "मेहमानों का हेडसर हाउस पहुंचना", icon: "Clock" },
+                { time: "दोपहर 2:00 बजे", title: "मेहमानों का हेडसर हाउस पहुंचना", icon: "Clock" },
                 { time: "दोपहर 2:30 बजे", title: "सिविल समारोह की शुरुआत", icon: "Heart" },
                 { time: "दोपहर 3:30 बजे", title: "ड्रिंक्स रिसेप्शन", icon: "Wine" },
                 { time: "शाम 5:00 बजे", title: "मेहमानों का बॉलरूम में अपनी सीटों पर बैठना", icon: "Utensils" },
