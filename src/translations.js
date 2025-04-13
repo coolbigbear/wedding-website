@@ -11,7 +11,8 @@ export const translations = {
             { order: 2, title: "Our Story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Other Events", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
+            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         attire: {
             title: "Attire",
@@ -127,6 +128,17 @@ export const translations = {
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
         }
+        ,
+        speeches: {
+            title: "Speeches",
+            subtitle: "What did they say?",
+            description: "Here you'll find all the speeches from the reception ceremony<br>(machine translated)",
+            events: [
+                {
+                    title: "Sonali & Michał", description: "When Michal and I started planning this wedding, we didn't know how this wedding would look like but we definitely knew the people we wanted to see.<br><br>We are so grateful and honoured to see all of your faces on a Monday, here celebrating us, especially those that have travelled here from abroad.There is a diverse mix of people here today, last time we counted there are about 9 different nationalities in this room today.Which is insane and only emphasises the connections we have made with you all as individuals and as a couple.<br><br>We WOULD like to take a moment to thank a few special people.<br><br>Firstly, a huge personal thank you to Daisy aunty and her beautiful daughter Alisha for driving me and my mum up and down the UK multiple times so I could find my perfect outfits.Thank you so much!<br><br>A special thank you to our friends who have been there since the beginning and have helped make this week so special for us.The I Do Crew, Alina, Amrita, Shivani, Mehreen, Meriam, Rameen, Rida.I don't know where I'd be without you guys.I'm so glad I met you as a quiet 11 year old, oh how times have changed. Love you guys.<br><br>To Aakriti and Michal, we are ever so grateful for your love and support.You two have been our problem solvers as well as an ear to all of our stressers from day 1. This day wouldn't have gone as smooth as it did without you. We are DEEPLY thankful.<br><br>Last but not least, to the people we couldn't be here without. Our parents. You all migrated to this country, without fully grasping the language, without external support and had to start building your lives again from scratch. Unknowingly, you gave Michal and I the opportunity to find each other and start our lives together. And for that we will forever be in your debt and we hope to make it up to you one day.<br><br>A Polish and Indian family coming together is no easy feat.There has been a huge culture shock at times, especially when planning this wedding but we wholly appreciate the level of grace and love you have held when faced with this.<br><br>Tonight wouldn't be possible without two incredible women—our mums.From the very beginning, you've been our greatest supporters, our guiding lights, and the hearts of our families.Your love, kindness, and wisdom have shaped us into the people we are today, and for that, we are forever grateful.Thank you for your unwavering support, for every sacrifice, and for the love you've poured into our lives.We are so lucky to have you, and we hope to make you as proud as you make us every day.<br><br>It's pretty evident we are surrounded by so much love and cannot emphasise how much it means to us to be celebrating the start of our married life, with all of you.Michal and I will remember this for the rest of our life.Thank you from the bottom of our hearts.<br><br>So one last toast of the evening.<br>To the union of people.<br>I hope to see you all on the dance floor!<br>Cheers."
+                }
+            ],
+        }
     },
     polish: {
         title: "Sonali & Michał",
@@ -140,7 +152,8 @@ export const translations = {
             { order: 2, title: "Nasza Historia", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Inne Wydarzenia", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Strój", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+            { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
+            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         attire: {
             title: "Strój",
@@ -250,6 +263,16 @@ export const translations = {
                 `Teraz możemy się nawzajem irytować kiedy tylko chcemy. Teraz, gdy nasze życie nie jest oddalone o lot samolotem, uwielbiamy wychodzić i jeść naszą ulubioną potrawę - sushi. W większość weekendów można nas znaleźć grających w gry planszowe, spacerujących lub po prostu siedzących razem, gdy ja czytam, a Michał pracuje nad swoim najnowszym projektem.`,
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
+        },
+        speeches: {
+            title: "Przemówienia",
+            subtitle: "Co oni powiedzieli?",
+            description: "Tutaj znajdziesz wszystkie przemówienia z ceremonii weselnej<br>(Przetłumaczone automatycznie)",
+            events: [
+                {
+                    title: "Sonali & Michał", description: "Kiedy ja i Sonali zaczęliśmy planować ten ślub, nie wiedzieliśmy tak naprawde, jak on będzie wyglądał, ale wiedzieliśmy, kogo chcemy tutaj zobaczyć.<br><br>Jesteśmy bardzo wdzięczni i zaszczyceni, widząc wszystkie wasze twarze w poniedziałek, tutaj... świętujące nas. Szczególnie tych, którzy przyjechali tutaj z zagranicy. Kiedy ostatnio liczyliśmy, w tym pokoju jest około 9 różnych narodowości. To tylko podkreśla więzi, które nawiązaliśmy z wami wszystkimi osobiście i jako para.<br><br>Chcielibyśmy poświęcić chwilę, aby podziękować kilku wyjątkowym osobom.<br><br>Po pierwsze, ogromne osobiste podziękowania dla cioci Daisy i jej pięknej córki Alishy za wielokrotne wożenie Sonali i Sonali  mamy po Wielkiej Brytanii, abym mogła znaleźć idealne stroje. Dziękuję bardzo!<br><br>Szczególne podziękowania dla naszych przyjaciół, którzy byli z nami od samego początku i pomogli nam uczynić ten tydzień tak wyjątkowy dla nas. <br>\"I Do Crew\": Alina, Amrita, Shivani, Mehreen, Meriam, Rameen, Rida. Nie wiem, gdzie Sonali by była bez was. Jestem taka szczęśliwy, że poznała was jako cicha 11-latka. Uwielbiam was.<br><br>Aakriti i Michał, jesteśmy niezmiernie wdzięczni za waszą miłość i wsparcie. Wy dwoje rozwiązywaliście nasze problemy, i byliście dla nas uchem w kwestii wszystkich stresów od pierwszego dnia. Ten dzień nie przebiegłby tak gładko bez was. Jesteśmy szczerze pełni podziękowań.<br><br>Na zakończenie, chcemy podziękować osobom, bez których nie moglibyśmy tu być... Nasi rodzice. Wyemigrowaliście do tego kraju, bez wsparcia i nie znając w pełni języka. Musieliście zacząć budować swojego życia od nowa. Nieświadomie daliście mi i Sonali możliwość znalezienia siebie i rozpoczęcia wspólnego życia. Za to będziemy na zawsze wdzięczni i mamy nadzieję, że kiedyś wam to wynagrodzimy.<br><br>Połączenie polskiej i indyjskiej rodziny nie jest łatwym zadaniem. Zdarzały się momenty dużego szoku kulturowego, szczególnie podczas planowania tego wesela, ale ogromnie doceniamy poziom życzliwości i miłości, jakie okazaliście w obliczu tych wyzwań.<br><br>Dzisiejszy wieczór nie byłby możliwy bez dwóch niesamowitych kobiet — naszych mam. <br>Od samego początku byliście naszymi największymi zwolennikami, naszymi przewodnikami i sercami naszych rodzin. Wasza miłość, życzliwość i mądrość ukształtowały nas w ludzi, którymi jesteśmy dzisiaj, i za to jesteśmy na zawsze wdzięczni. Dziękujemy za Wasze niezachwiane wsparcie, za każde poświęcenie i za miłość, jaką wlaliście w nasze życie. Jesteśmy tak szczęśliwi, że was mamy i mamy nadzieję, że będziecie z nas równie dumne, jak my jesteśmy z was każdego dnia.<br><br>Jest całkiem oczywiste, że jesteśmy otoczeni wielką miłością i nie sposób wyrazić słowami, jak wiele dla nas znaczy świętowanie początku naszego życia małżeńskiego, z wami wszystkimi. Sonali i ja będziemy to pamiętać do końca życia. Dziękujemy z całego serca.<br><br>A więc ostatni toast wieczoru.<br>Za małżeństwo.<br>Mam nadzieję, że zobaczę was wszystkich na parkiecie!<br>Na zdrowie!"
+                }
+            ],
         }
     },
     hindi: {
@@ -264,7 +287,8 @@ export const translations = {
             { order: 2, title: "हमारी कहानी", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "अन्य कार्यक्रम", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "पोशाक", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+            { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
+            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         attire: {
             title: "पोशाक",
@@ -375,6 +399,16 @@ export const translations = {
         `
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
+        },
+        speeches: {
+            title: "भाषण",
+            subtitle: "क्या कहा गय?",
+            description: "यहाँ आपको शादी के रिसेप्शन के भाषण मिलेंगे।",
+            events: [
+                {
+                    title: "सोनाली और माइकल", description: ""
+                }
+            ],
         }
     }
 };

@@ -29,10 +29,11 @@ const App = () => {
 					<Routes>
 						<Route path="/" element={<Layout />}>
 							<Route index element={<Home />} />
-							<Route path="about" element={<About language={t.about} bgcolor={'bg-green-700'}/>} />
-							<Route path="attire" element={<Attire />} />
+							<Route path="about" element={<About language={t.about} bgcolor={'bg-green-700'} />} />
+							<Route path="attire" element={<Attire language={t.attire} bgcolor={'bg-amber-900'} />} />
 							<Route path="events" element={<Events language={t.events} bgcolor={'bg-orange-500'} />} />
 							<Route path="qanda" element={<Events language={t.qanda} bgcolor={'bg-red-800'} />} />
+							<Route path="speeches" element={<Events language={t.speeches} bgcolor={'bg-purple-900'} />} />
 							<Route path="*" element={<Home />} />
 						</Route>
 					</Routes>
