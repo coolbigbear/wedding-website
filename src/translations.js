@@ -11,8 +11,18 @@ export const translations = {
             { order: 2, title: "Our Story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Other Events", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
+            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
+            { order: 5, title: "Gallery", imageUrl: "/images/gallery.jpg", link: "/gallery" }
         ],
+        gallery: {
+            title: "Gallery",
+            description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)",
+            events: [
+                {
+                    title: "Upload", description: ""
+                }
+            ]
+        },
         attire: {
             title: "Attire",
             subtitle: "What should I wear?",
@@ -250,7 +260,16 @@ export const translations = {
                 `Teraz możemy się nawzajem irytować kiedy tylko chcemy. Teraz, gdy nasze życie nie jest oddalone o lot samolotem, uwielbiamy wychodzić i jeść naszą ulubioną potrawę - sushi. W większość weekendów można nas znaleźć grających w gry planszowe, spacerujących lub po prostu siedzących razem, gdy ja czytam, a Michał pracuje nad swoim najnowszym projektem.`,
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
-        }
+        },
+        gallery: {
+            title: "Galeria",
+            description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")",
+            events: [
+                {
+                    title: "Upload", description: ""
+                }
+            ]
+        },
     },
     hindi: {
         title: "सोनाली और माइकल",

@@ -7,7 +7,7 @@ import { createContext, useLayoutEffect, useState } from 'react';
 import { translations } from './translations';
 import Attire from './components/pages/Attire';
 import Events from './components/pages/Events';
-import QandA from './components/pages/QandA';
+import Gallery from './components/pages/Gallery';
 
 export const LanguageContext = createContext('english');
 
@@ -28,11 +28,13 @@ const App = () => {
 				<Wrapper>
 					<Routes>
 						<Route path="/" element={<Layout />}>
+							{/* <div className='bg-bl'></div> */}
 							<Route index element={<Home />} />
 							<Route path="about" element={<About language={t.about} bgcolor={'bg-green-700'}/>} />
 							<Route path="attire" element={<Attire />} />
 							<Route path="events" element={<Events language={t.events} bgcolor={'bg-orange-500'} />} />
 							<Route path="qanda" element={<Events language={t.qanda} bgcolor={'bg-red-800'} />} />
+							<Route path="gallery" element={<Gallery language={t.gallery} bgcolor={'bg-blue-500'} />} />
 							<Route path="*" element={<Home />} />
 						</Route>
 					</Routes>
