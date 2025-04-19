@@ -1,4 +1,3 @@
-import Polaroid from '../Polaroid';
 import PolaroidText from '../PolaroidText';
 import { Title } from '../Title';
 

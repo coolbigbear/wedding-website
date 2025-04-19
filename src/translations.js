@@ -12,8 +12,18 @@ export const translations = {
             { order: 1, title: "Other Events", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" },
+            { order: 5, title: "Gallery", imageUrl: "/images/gallery.jpg", link: "/gallery" }
         ],
+        gallery: {
+            title: "Gallery",
+            description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)",
+            events: [
+                {
+                    title: "Upload", description: ""
+                }
+            ]
+        },
         attire: {
             title: "Attire",
             subtitle: "What should I wear?",
@@ -153,7 +163,8 @@ export const translations = {
             { order: 1, title: "Inne Wydarzenia", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Strój", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" },
+            { order: 5, title: "Galeria", imageUrl: "/images/gallery.jpg", link: "/gallery" }
         ],
         attire: {
             title: "Strój",
@@ -273,7 +284,16 @@ export const translations = {
                     title: "Sonali & Michał", description: "Kiedy ja i Sonali zaczęliśmy planować ten ślub, nie wiedzieliśmy tak naprawde, jak on będzie wyglądał, ale wiedzieliśmy, kogo chcemy tutaj zobaczyć.<br><br>Jesteśmy bardzo wdzięczni i zaszczyceni, widząc wszystkie wasze twarze w poniedziałek, tutaj... świętujące nas. Szczególnie tych, którzy przyjechali tutaj z zagranicy. Kiedy ostatnio liczyliśmy, w tym pokoju jest około 9 różnych narodowości. To tylko podkreśla więzi, które nawiązaliśmy z wami wszystkimi osobiście i jako para.<br><br>Chcielibyśmy poświęcić chwilę, aby podziękować kilku wyjątkowym osobom.<br><br>Po pierwsze, ogromne osobiste podziękowania dla cioci Daisy i jej pięknej córki Alishy za wielokrotne wożenie Sonali i Sonali  mamy po Wielkiej Brytanii, abym mogła znaleźć idealne stroje. Dziękuję bardzo!<br><br>Szczególne podziękowania dla naszych przyjaciół, którzy byli z nami od samego początku i pomogli nam uczynić ten tydzień tak wyjątkowy dla nas. <br>\"I Do Crew\": Alina, Amrita, Shivani, Mehreen, Meriam, Rameen, Rida. Nie wiem, gdzie Sonali by była bez was. Jestem taka szczęśliwy, że poznała was jako cicha 11-latka. Uwielbiam was.<br><br>Aakriti i Michał, jesteśmy niezmiernie wdzięczni za waszą miłość i wsparcie. Wy dwoje rozwiązywaliście nasze problemy, i byliście dla nas uchem w kwestii wszystkich stresów od pierwszego dnia. Ten dzień nie przebiegłby tak gładko bez was. Jesteśmy szczerze pełni podziękowań.<br><br>Na zakończenie, chcemy podziękować osobom, bez których nie moglibyśmy tu być... Nasi rodzice. Wyemigrowaliście do tego kraju, bez wsparcia i nie znając w pełni języka. Musieliście zacząć budować swojego życia od nowa. Nieświadomie daliście mi i Sonali możliwość znalezienia siebie i rozpoczęcia wspólnego życia. Za to będziemy na zawsze wdzięczni i mamy nadzieję, że kiedyś wam to wynagrodzimy.<br><br>Połączenie polskiej i indyjskiej rodziny nie jest łatwym zadaniem. Zdarzały się momenty dużego szoku kulturowego, szczególnie podczas planowania tego wesela, ale ogromnie doceniamy poziom życzliwości i miłości, jakie okazaliście w obliczu tych wyzwań.<br><br>Dzisiejszy wieczór nie byłby możliwy bez dwóch niesamowitych kobiet — naszych mam. <br>Od samego początku byliście naszymi największymi zwolennikami, naszymi przewodnikami i sercami naszych rodzin. Wasza miłość, życzliwość i mądrość ukształtowały nas w ludzi, którymi jesteśmy dzisiaj, i za to jesteśmy na zawsze wdzięczni. Dziękujemy za Wasze niezachwiane wsparcie, za każde poświęcenie i za miłość, jaką wlaliście w nasze życie. Jesteśmy tak szczęśliwi, że was mamy i mamy nadzieję, że będziecie z nas równie dumne, jak my jesteśmy z was każdego dnia.<br><br>Jest całkiem oczywiste, że jesteśmy otoczeni wielką miłością i nie sposób wyrazić słowami, jak wiele dla nas znaczy świętowanie początku naszego życia małżeńskiego, z wami wszystkimi. Sonali i ja będziemy to pamiętać do końca życia. Dziękujemy z całego serca.<br><br>A więc ostatni toast wieczoru.<br>Za małżeństwo.<br>Mam nadzieję, że zobaczę was wszystkich na parkiecie!<br>Na zdrowie!"
                 }
             ],
-        }
+        },
+        gallery: {
+            title: "Galeria",
+            description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")",
+            events: [
+                {
+                    title: "Załaduj", description: ""
+                }
+            ]
+        },
     },
     hindi: {
         title: "सोनाली और माइकल",
@@ -288,7 +308,8 @@ export const translations = {
             { order: 1, title: "अन्य कार्यक्रम", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "पोशाक", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" },
+            { order: 5, title: "⁠फोटो गैलरी", imageUrl: "/images/gallery.jpg", link: "/gallery" }
         ],
         attire: {
             title: "पोशाक",
@@ -409,6 +430,15 @@ export const translations = {
                     title: "सोनाली और माइकल", description: ""
                 }
             ],
-        }
+        },
+        gallery: {
+            title: "⁠फोटो गैलरी",
+            description: "हम आपकी सारी ली हुई फोटोज़ देखना चाहते हैं!<br><br>कृपया नीचे दिए गए बटन से अपनी सारी तस्वीरें गैलरी में अपलोड करें।(पासवर्ड  “sonalimichal.com” है",
+            events: [
+                {
+                    title: "अपलोड", description: ""
+                }
+            ]
+        },
     }
 };
