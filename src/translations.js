@@ -394,6 +394,15 @@ export const translations = {
         `
             ],
             images: ["/images/about/pub-cuddle.jpeg", "/images/about/outdoor-hug.jpeg", "/images/about/library.jpeg", "/images/about/mirror.jpeg"]
-        }
+        },
+        gallery: {
+            title: "⁠फोटो गैलरी",
+            description: "हम आपकी सारी ली हुई फोटोज़ देखना चाहते हैं!<br><br>कृपया नीचे दिए गए बटन से अपनी सारी तस्वीरें गैलरी में अपलोड करें।(पासवर्ड  “sonalimichal.com” है",
+            events: [
+                {
+                    title: "अपलोड", description: ""
+                }
+            ]
+        },
     }
 };
