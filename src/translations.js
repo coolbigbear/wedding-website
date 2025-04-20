@@ -185,7 +185,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Ceremonia cywilna i przyjęcie",
-                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii cywilnej<br><br>Będzie to formalne wydarzenie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smokingi jest zarezerwowany dla pana młodego. Dziękujemy za zrozumienie!",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii cywilnej<br><br>Będzie to formalne wydarzenie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smoking jest zarezerwowany dla pana młodego. Dziękujemy za zrozumienie!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
