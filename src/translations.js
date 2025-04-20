@@ -180,7 +180,7 @@ export const translations = {
                 },
                 {
                     eventTitle: "Hinduska ceremonia ślubna",
-                    eventDescription: "Odcienie różu lub akcenty różu, jeśli to możliwe.<br><br>Prosimy o powstrzymanie się od noszenia bieli, ponieważ noszenie bieli podczas uroczystości jest uważane za niepomyślne.",
+                    eventDescription: "Odcienie różu lub akcenty różu, jeśli to możliwe.<br><br>Prosimy o powstrzymanie się od noszenia bieli, ponieważ noszenie bieli podczas uroczystości jest uważane za niepomyślne.<br><br>Proszę zwrócić uwagę że przed wejścią do świątyni trzeba zdjąć buty.",
                     images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
                 },
                 {
