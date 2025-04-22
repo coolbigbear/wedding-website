@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor }) => {
+const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, buttonText }) => {
 
 	return (
 		<div className="mx-auto">
@@ -25,7 +25,7 @@ const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor }) => {
 						'--text-color': textColor,
 						'--hover-text-color': hoverTextColor,
 					}}>
-					Upload
+					{buttonText}
 					<img src="/images/immich.png" className="size-10" />
 				</button>
 			</a>

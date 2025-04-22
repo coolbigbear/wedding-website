@@ -193,12 +193,12 @@ export const translations = {
                 },
                 {
                     eventTitle: "Hinduska ceremonia ślubna",
-                    eventDescription: "Odcienie różu lub akcenty różu, jeśli to możliwe.<br><br>Prosimy o powstrzymanie się od noszenia bieli, ponieważ noszenie bieli podczas uroczystości jest uważane za niepomyślne.",
+                    eventDescription: "Odcienie różu lub akcenty różu, jeśli to możliwe.<br><br>Prosimy o powstrzymanie się od noszenia bieli, ponieważ noszenie bieli podczas uroczystości jest uważane za niepomyślne.<br><br>Proszę zwrócić uwagę że przed wejściem do świątyni trzeba zdjąć buty.",
                     images: ["/images/attire/mandap-1.png", "/images/attire/mandap-2.png", "/images/attire/mandap-3.png", "/images/attire/mandap-4.png"]
                 },
                 {
                     eventTitle: "Ceremonia cywilna i przyjęcie",
-                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii ciwilnej<br><br>Będzie to formalne wydarzenie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smokingi jest zarezerwowany dla pana młodego. Dziękujemy za zrozumienie!",
+                    eventDescription: "Ponieważ jest to całodniowe wydarzenie, istnieje możliwość przebrania się po ceremonii cywilnej<br><br>Będzie to formalne wydarzenie, ale weź ze sobą buty do tańca!<br><br>Kolory takie jak złoty i biały są zarezerwowane dla orszaku panny młodej, a smoking jest zarezerwowany dla pana młodego. Dziękujemy za zrozumienie!",
                     images: ["/images/attire/hedsor-1.png", "/images/attire/hedsor-2.png", "/images/attire/hedsor-3.png", "/images/attire/hedsor-4.png", "/images/attire/hedsor-5.png", "/images/attire/hedsor-6.png", "/images/attire/hedsor-7.png", "/images/attire/hedsor-8.png"]
                 }
             ]
