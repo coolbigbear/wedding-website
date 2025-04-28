@@ -3,20 +3,15 @@ import EventSection from "../EventSection";
 import { LanguageContext } from "../../App";
 import { Title } from "../Title";
 
-const Attire = () => {
+const Attire = ({ language, bgcolor }) => {
 
-	const { language } = useContext(LanguageContext)
-	const bgcolor = "bg-amber-900"
-
-	const description = { __html: language.attire.description };
-
-
+	const description = { __html: language.description };
 	return (
 		<div className="flex flex-col bg-white font-serif">
-			<Title title={language.attire.title} subtitle={language.attire.subtitle} bgcolor={bgcolor} />
+			<Title title={language.title} subtitle={language.subtitle} bgcolor={bgcolor} />
 			<h1 className="text-2xl md:mx-40 mx-4 text-center text-black my-8" dangerouslySetInnerHTML={description}/>
 			<div className="flex flex-col 2xl:mx-32">
-				{language.attire.events.map((eventObj, index) => (
+				{language.events.map((eventObj, index) => (
 					<EventSection
 						key={'event-section-' + index}
 						title={eventObj.eventTitle}
