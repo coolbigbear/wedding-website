@@ -1,10 +1,10 @@
 export const translations = {
     english: {
         title: "Sonali & Michał",
-        date: "April 28, 2025",
+        date: "Happily Married",
         hero: {
-            invitation: "You are cordially invited to celebrate our Civil Ceremony and Reception at Hedsor House",
-            date: "Monday, April 28, 2025",
+            invitation: "We want to thank everyone who attended our ceremony, it was an absolutely amazing time!<br><br>We hope each and every one of you thoroughly enjoyed themselves!",
+            date: "Happily Married",
             details: "Hedsor House • Taplow, United Kingdom"
         },
         homeCards: [
@@ -166,8 +166,8 @@ export const translations = {
         title: "Sonali & Michał",
         date: "28 kwietnia 2025",
         hero: {
-            invitation: "Mamy zaszczyt zaprosić Państwa na naszą ceremonię cywilną i przyjęcie w Hedsor House",
-            date: "Poniedziałek, 28 kwietnia 2025",
+            invitation: "Chcielibyśmy podziękować wszystkim, którzy uczestniczyli w naszej ceremonii, to był naprawdę niesamowity czas!<br><br>Mamy nadzieję, że każdy z was świetnie się bawił!",
+            date: "Szczęśliwie Poślubieni",
             details: "Hedsor House • Taplow, Wielka Brytania"
         },
         homeCards: [
@@ -323,8 +323,8 @@ export const translations = {
         title: "सोनाली और माइकल",
         date: "28 अप्रैल, 2025",
         hero: {
-            invitation: "आपको हेडसर हाउस में हमारे सिविल समारोह और स्वागत समारोह का जश्न मनाने के लिए सादर आमंत्रित किया जाता है",
-            date: "सोमवार, 28 अप्रैल, 2025",
+            invitation: "हम उन सभी का दिल से धन्यवाद करना चाहते हैं जो हमारी शादी में शामिल हुए। यह हमारे लिए एक बेहद खास और यादगार समय था।<br><br>हमें आशा है कि आप सभी ने इस मौके का भरपूर आनंद लिया होगा।",
+            date: "ख़ुशी से शादीशुदा",
             details: "हेडसर हाउस • टैप्लो, यूनाइटेड किंगडम"
         },
         homeCards: [

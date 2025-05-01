@@ -15,12 +15,14 @@ const Home = () => {
 			content.push(<HomeCard key={i} title={item.title} imageUrl={item.imageUrl} delay={delay * i} link={item.link} />);
 		}
 		return content;
-  	};
+	};
+	
+	const description = { __html: language.hero.invitation };
 
 	return (
 		<div className="flex flex-col bg-white font-serif">
 			<Hero homepage={true} />
-			<h1 className="text-4xl pb-14 mx-4 text-center text-black">{language.hero.invitation}</h1>
+			<h1 className="text-4xl pb-14 mx-4 text-center text-black" dangerouslySetInnerHTML={description}/> 
 			<Timeline itinerary={language.itinerary} />
 			<div className="flex flex-col text-center 2xl:mx-32 mx-4">
 				<div className="2xl:grid hidden 2xl:grid-cols-2 gap-6">
