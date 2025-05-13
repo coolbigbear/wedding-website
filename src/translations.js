@@ -8,12 +8,12 @@ export const translations = {
             details: "Hedsor House • Taplow, United Kingdom"
         },
         homeCards: [
+            { order: 5, title: "Gallery", imageUrl: "/images/gallery.jpg", link: "/gallery" },
             { order: 2, title: "Our Story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Other Events", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" },
-            { order: 5, title: "Gallery", imageUrl: "/images/gallery.jpg", link: "/gallery" }
+            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         gallery: {
             title: "Gallery",
@@ -171,12 +171,12 @@ export const translations = {
             details: "Hedsor House • Taplow, Wielka Brytania"
         },
         homeCards: [
+            { order: 5, title: "Galeria", imageUrl: "/images/gallery.jpg", link: "/gallery" },
             { order: 2, title: "Nasza Historia", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Inne Wydarzenia", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Strój", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" },
-            { order: 5, title: "Galeria", imageUrl: "/images/gallery.jpg", link: "/gallery" }
+            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         attire: {
             title: "Strój",
@@ -328,12 +328,12 @@ export const translations = {
             details: "हेडसर हाउस • टैप्लो, यूनाइटेड किंगडम"
         },
         homeCards: [
+            { order: 5, title: "⁠फोटो गैलरी", imageUrl: "/images/gallery.jpg", link: "/gallery" },
             { order: 2, title: "हमारी कहानी", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "अन्य कार्यक्रम", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "पोशाक", imageUrl: "/images/attire.jpeg", link: "/attire" },
             { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" },
-            { order: 5, title: "⁠फोटो गैलरी", imageUrl: "/images/gallery.jpg", link: "/gallery" }
+            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" }
         ],
         attire: {
             title: "पोशाक",
