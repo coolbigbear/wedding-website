@@ -23,7 +23,7 @@ const Home = () => {
 		<div className="flex flex-col bg-white font-serif">
 			<Hero homepage={true} />
 			<h1 className="text-4xl pb-14 mx-4 text-center text-black" dangerouslySetInnerHTML={description}/> 
-			<Timeline itinerary={language.itinerary} />
+			{/* <Timeline itinerary={language.itinerary} /> */}
 			<div className="flex flex-col text-center 2xl:mx-32 mx-4">
 				<div className="2xl:grid hidden 2xl:grid-cols-2 gap-6">
 					{/* Left Column */}

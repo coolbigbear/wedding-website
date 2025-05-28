@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, buttonText }) => {
+const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, buttonText, url }) => {
 
 	return (
 		<div className="mx-auto">
-			<a href="https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA">
+			<a href={url}>
 				<button
 					className={`
 					gap-4

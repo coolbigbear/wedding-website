@@ -3,7 +3,7 @@ export const translations = {
         title: "Sonali & Michał",
         date: "Happily Married",
         hero: {
-            invitation: "We want to thank everyone who attended our ceremony, it was an absolutely amazing time!<br><br>We hope each and every one of you thoroughly enjoyed themselves!",
+            invitation: "We want to thank everyone who attended our ceremony, it was an absolutely amazing time!<br><br>We hope each and every one of you thoroughly enjoyed themselves!<br><br>All the photos from the events are available in the <a href='#/gallery'>gallery</a> section!",
             date: "Happily Married",
             details: "Hedsor House • Taplow, United Kingdom"
         },
@@ -17,10 +17,16 @@ export const translations = {
         ],
         gallery: {
             title: "Gallery",
-            description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)",
+            description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)<br><br>Below you'll find individual galleries for different events and picture types",
             events: [
                 {
-                    title: "Upload", description: ""
+                    title: "Hedsor House Gallery", description: "All the professional images from our wedding at Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                },
+                {
+                    title: "Hedsor House Photobooth", description: "All the images from our amazing photo booth!", url: "https://immich.coolbigbear.com/share/L_riqPULMNb1PNV9RofB0NCPgYhewKjc7ITtUYcKRS4MeRtSJtX_KMuW8xaAceAtVqc"
+                },
+                {
+                    title: "Guest photographs", description: "All the lovely pictures taken by you!", url: "https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA"
                 }
             ]
         },
@@ -166,7 +172,7 @@ export const translations = {
         title: "Sonali & Michał",
         date: "28 kwietnia 2025",
         hero: {
-            invitation: "Chcielibyśmy podziękować wszystkim, którzy uczestniczyli w naszej ceremonii, to był naprawdę niesamowity czas!<br><br>Mamy nadzieję, że każdy z was świetnie się bawił!",
+            invitation: "Chcielibyśmy podziękować wszystkim, którzy uczestniczyli w naszej ceremonii, to był naprawdę niesamowity czas!<br><br>Mamy nadzieję, że każdy z was świetnie się bawił!<br><br>Wszystkie zdjęcia z wydarzeń są dostępne w <a href='#/gallery'>galerji</a>!",
             date: "Szczęśliwie Poślubieni",
             details: "Hedsor House • Taplow, Wielka Brytania"
         },
@@ -323,7 +329,7 @@ export const translations = {
         title: "सोनाली और माइकल",
         date: "28 अप्रैल, 2025",
         hero: {
-            invitation: "हम उन सभी का दिल से धन्यवाद करना चाहते हैं जो हमारी शादी में शामिल हुए। यह हमारे लिए एक बेहद खास और यादगार समय था।<br><br>हमें आशा है कि आप सभी ने इस मौके का भरपूर आनंद लिया होगा।",
+            invitation: "हम उन सभी का दिल से धन्यवाद करना चाहते हैं जो हमारी शादी में शामिल हुए। यह हमारे लिए एक बेहद खास और यादगार समय था।<br><br>हमें आशा है कि आप सभी ने इस मौके का भरपूर आनंद लिया होगा।<br><br>सभी कार्यक्रमों की तस्वीरें गैलरी में <a href='#/gallery'>उपलब्ध</a>हैं",
             date: "ख़ुशी से शादीशुदा",
             details: "हेडसर हाउस • टैप्लो, यूनाइटेड किंगडम"
         },
