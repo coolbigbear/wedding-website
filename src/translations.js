@@ -326,7 +326,7 @@ export const translations = {
         gallery: {
             title: "Galeria",
             description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")<br><br>Poniżej znajdziesz galerie poszczególnych wydarzeń",
-            uploadText: "Wgraj",
+            uploadText: "Załaduj",
             buttonText: "Zobacz galerię",
             events: [
                 {
