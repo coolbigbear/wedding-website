@@ -3,7 +3,7 @@ import { useIsVisible } from './hooks/useIsVisible';
 import ImmichButton from "./ImmichButton";
 
 
-export function GalleryCard({ title, description, bgcolor, time = null, url }) {
+export function GalleryCard({ title, description, buttonText, bgcolor, time = null, url }) {
 	description = { __html: description };
 
 	const ref = useRef();
@@ -20,7 +20,7 @@ export function GalleryCard({ title, description, bgcolor, time = null, url }) {
 			{time && <div className="text-2xl text-center px-2 font-bold">{time}</div>}
 			<div className="text-lg md:text-2xl mx-10 my-5 text-center" dangerouslySetInnerHTML={description} />
 				<ImmichButton
-					buttonText={'View gallery'}
+					buttonText={buttonText}
 					bgColor={'bg-black'}
 					textColor={'white'}
 					hoverBgColor={'bg-white'}

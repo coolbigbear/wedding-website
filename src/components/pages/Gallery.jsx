@@ -11,7 +11,7 @@ const Gallery = ({ language, bgcolor }) => {
 			<div className="grid col-auto">
 				<div className='mx-auto mb-5'>
 					<ImmichButton
-						buttonText='Upload'
+						buttonText={language.uploadText}
 						bgColor={'bg-black'}
 						textColor={'white'}
 						hoverBgColor={'bg-white'}
@@ -25,6 +25,7 @@ const Gallery = ({ language, bgcolor }) => {
 							key={index}
 							title={eventObj.title}
 							description={eventObj.description}
+							buttonText={eventObj.buttonText}
 							bgcolor={bgcolor}
 							time={eventObj.time}
 							url={eventObj.url}
