@@ -1,10 +1,12 @@
-import React from 'react';
+import { useContext } from 'react';
+import { LanguageContext } from '../App';
 
-const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, buttonText }) => {
+const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, buttonText, url }) => {
 
+	const { language } = useContext(LanguageContext);
 	return (
 		<div className="mx-auto">
-			<a href="https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA">
+			<a href={url}>
 				<button
 					className={`
 					gap-4
@@ -25,7 +27,7 @@ const ImmichButton = ({ bgColor, hoverBgColor, textColor, hoverTextColor, button
 						'--text-color': textColor,
 						'--hover-text-color': hoverTextColor,
 					}}>
-					{buttonText}
+					{ buttonText ? buttonText : language.gallery.buttonText}
 					<img src="/images/immich.png" className="size-10" />
 				</button>
 			</a>
