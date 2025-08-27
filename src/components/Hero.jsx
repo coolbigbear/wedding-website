@@ -11,7 +11,7 @@ const Hero = ({ title, subtitle, homepage }) => {
 				w-full flex text-center align-top`}>
 			{homepage == true ? (
 				<div
-					className={`absolute inset-0 bg-cover bg-center bg-no-repeat brightness-50 flex bg-hero md:bg-hero-hoz w-full h-svh`}
+					className={`absolute inset-0 bg-cover bg-bottom bg-no-repeat brightness-50 flex bg-hero md:bg-hero-hoz w-full h-svh`}
 				/>
 			) : (
 				''

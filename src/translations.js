@@ -3,30 +3,36 @@ export const translations = {
         title: "Sonali & Michał",
         date: "Happily Married",
         hero: {
-            invitation: "We want to thank everyone who attended our ceremony, it was an absolutely amazing time!<br><br>We hope each and every one of you thoroughly enjoyed themselves!<br><br>All the photos from the events are available in the <a href='#/gallery'>gallery</a> section!",
+            invitation: "We want to thank everyone who attended our ceremonies, it was an absolutely amazing time!<br><br>We hope each and every one of you thoroughly enjoyed themselves!<br><br>All the photos from the events are available in the <a href='#/gallery'>gallery</a> section!<br><br>",
             date: "Happily Married",
             details: "Hedsor House • Taplow, United Kingdom"
         },
         homeCards: [
             { order: 5, title: "Gallery", imageUrl: "/images/gallery.jpg", link: "/gallery" },
+            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" },
             { order: 2, title: "Our Story", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Other Events", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Attire", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Speeches", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 3, title: "Questions & Answers", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
         ],
         gallery: {
             title: "Gallery",
             description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)<br><br>Below you'll find individual galleries for different events and picture types",
             events: [
                 {
-                    title: "Hedsor House Gallery", description: "All the professional images from our wedding at Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                    title: "Jaggo Gallery", description: "All the professional images and videos taken at the Jaggo event at Baylis House", url: "https://immich.coolbigbear.com/s/jaggo"
+                },
+                {
+                    title: "Mandap Gallery", description: "All the professional images and videos taken at the Mandap event at the Slough Hindu Temple", url: "https://immich.coolbigbear.com/s/mandap"
+                },
+                {
+                    title: "Hedsor House Gallery", description: "All the professional photos and videos from our wedding at Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
                 },
                 {
                     title: "Hedsor House Photobooth", description: "All the images from our amazing photo booth!", url: "https://immich.coolbigbear.com/share/L_riqPULMNb1PNV9RofB0NCPgYhewKjc7ITtUYcKRS4MeRtSJtX_KMuW8xaAceAtVqc"
                 },
                 {
-                    title: "Guest photographs", description: "All the lovely pictures taken by you!", url: "https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA"
+                    title: "Guest photographs", description: "All the lovely pictures taken by you!\nPsst.. You can still add more pictures to this gallery!", url: "https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA"
                 }
             ]
         },
@@ -172,17 +178,17 @@ export const translations = {
         title: "Sonali & Michał",
         date: "28 kwietnia 2025",
         hero: {
-            invitation: "Chcielibyśmy podziękować wszystkim, którzy uczestniczyli w naszej ceremonii, to był naprawdę niesamowity czas!<br><br>Mamy nadzieję, że każdy z was świetnie się bawił!<br><br>Wszystkie zdjęcia z wydarzeń są dostępne w <a href='#/gallery'>galerji</a>!",
+            invitation: "Chcielibyśmy podziękować wszystkim, którzy uczestniczyli w naszych ceremoniach, to był naprawdę niesamowity czas!<br><br>Mamy nadzieję, że każdy z was świetnie się bawił!<br><br>Wszystkie zdjęcia z wydarzeń są dostępne w <a href='#/gallery'>galerii</a>!",
             date: "Szczęśliwie Poślubieni",
             details: "Hedsor House • Taplow, Wielka Brytania"
         },
         homeCards: [
             { order: 5, title: "Galeria", imageUrl: "/images/gallery.jpg", link: "/gallery" },
+            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" },
             { order: 2, title: "Nasza Historia", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "Inne Wydarzenia", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "Strój", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "Przemówienia", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 3, title: "Pytania i Odpowiedzi", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
         ],
         attire: {
             title: "Strój",
@@ -320,7 +326,19 @@ export const translations = {
             description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")",
             events: [
                 {
-                    title: "Załaduj", description: ""
+                    title: "Galeria Jaggo", description: "Wszystkie profesjonalne zdjęcia i filmy wykonane podczas Jaggo w Baylis House", url: "https://immich.coolbigbear.com/s/jaggo"
+                },
+                {
+                    title: "Galeria Mandap", description: "Wszystkie profesjonalne zdjęcia i filmy wykonane podczas wydarzenia Mandap w świątyni hinduistycznej w Slough", url: "https://immich.coolbigbear.com/s/mandap"
+                },
+                {
+                    title: "Galeria Hedsor House", description: "Wszystkie profesjonalne zdjęcia i filmy z naszego ślubu w Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                },
+                {
+                    title: "Galeria z fotobudki", description: "Wszystkie zdjęcia z naszej niesamowitej fotobudki!", url: "https://immich.coolbigbear.com/s/photobooth"
+                },
+                {
+                    title: "Zdjęcia gości", description: "Wszystkie wspaniałe zdjęcia, które uchwyciliście podczas różnych wydarzeń!\nPsst... Nadal możesz dodać więcej do tej galerii!", url: "https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA"
                 }
             ]
         },
@@ -335,11 +353,11 @@ export const translations = {
         },
         homeCards: [
             { order: 5, title: "⁠फोटो गैलरी", imageUrl: "/images/gallery.jpg", link: "/gallery" },
+            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" },
             { order: 2, title: "हमारी कहानी", imageUrl: "/images/big-weekend.jpeg", link: "/about" },
             { order: 1, title: "अन्य कार्यक्रम", imageUrl: "/images/other.jpeg", link: "/events" },
             { order: 0, title: "पोशाक", imageUrl: "/images/attire.jpeg", link: "/attire" },
-            { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" },
-            { order: 4, title: "भाषण", imageUrl: "/images/speech.jpg", link: "/speeches" }
+            { order: 3, title: "प्रश्न और उत्तर", imageUrl: "/images/qanda.jpeg", link: "/qanda" }
         ],
         attire: {
             title: "पोशाक",
@@ -478,7 +496,19 @@ export const translations = {
             description: "हम आपकी सारी ली हुई फोटोज़ देखना चाहते हैं!<br><br>कृपया नीचे दिए गए बटन से अपनी सारी तस्वीरें गैलरी में अपलोड करें।(पासवर्ड  “sonalimichal.com” है",
             events: [
                 {
-                    title: "अपलोड", description: ""
+                    title: "जग्गो गैलरी", description: "बेलिस हाउस में जग्गो के लिए ली गई सभी तस्वीरें और वीडियो", url: "https://immich.coolbigbear.com/s/jaggo"
+                },
+                {
+                    title: "मंडप गैलरी", description: "स्लो हिंदू मंदिर में विवाह समारोह के दौरान ली गई सभी तस्वीरें और वीडियो", url: "https://immich.coolbigbear.com/s/mandap"
+                },
+                {
+                    title: "हेड्सोर हाउस गैलरी", description: "हेड्सोर हाउस में हमारी शादी की सभी तस्वीरें और वीडियो", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                },
+                {
+                    title: "फोटो बूथ गैलरी", description: "सभी तस्वीरें हमारे अद्भुत फोटो बूथ से ली गई हैं!", url: "https://immich.coolbigbear.com/s/photobooth"
+                },
+                {
+                    title: "मेहमानों की गैलरी", description: "आपके द्वारा विभिन्न आयोजनों में ली गई सभी प्यारी तस्वीरें! आपकी ली गई सभी प्यारी तस्वीरें\nआप अभी भी इस गैलरी में और तस्वीरें जोड़ सकते हैं!", url: "https://immich.coolbigbear.com/share/Syl2hg3evnhW7PwvUcIoYQMOnHHE6Kughza8kIfh_Jvnu4BEEQrgzfdddkw4s2u5dHA"
                 }
             ]
         },
