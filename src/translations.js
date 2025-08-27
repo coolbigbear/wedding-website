@@ -18,6 +18,8 @@ export const translations = {
         gallery: {
             title: "Gallery",
             description: "We'd love to see all the pictures you've taken!<br><br>Please upload all your pictures to the gallery using the button below<br>(P.S. use \"sonalimichal.com\" as the password)<br><br>Below you'll find individual galleries for different events and picture types",
+            uploadText: "Upload",
+            buttonText: "View Gallery",
             events: [
                 {
                     title: "Jaggo Gallery", description: "All the professional images and videos taken at the Jaggo event at Baylis House", url: "https://immich.coolbigbear.com/s/jaggo"
@@ -323,7 +325,9 @@ export const translations = {
         },
         gallery: {
             title: "Galeria",
-            description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")",
+            description: "Bardzo chcielibyśmy zobaczyć wszystkie zdjęcia, które zrobiliście!<br><br>Prosimy o przesłanie wszystkich zdjęć do galerii za pomocą przycisku poniżej<br>(P.S. hasło to \"sonalimichal.com\")<br><br>Poniżej znajdziesz galerie poszczególnych wydarzeń",
+            uploadText: "Wgraj",
+            buttonText: "Zobacz galerię",
             events: [
                 {
                     title: "Galeria Jaggo", description: "Wszystkie profesjonalne zdjęcia i filmy wykonane podczas Jaggo w Baylis House", url: "https://immich.coolbigbear.com/s/jaggo"
@@ -493,7 +497,9 @@ export const translations = {
         },
         gallery: {
             title: "⁠फोटो गैलरी",
-            description: "हम आपकी सारी ली हुई फोटोज़ देखना चाहते हैं!<br><br>कृपया नीचे दिए गए बटन से अपनी सारी तस्वीरें गैलरी में अपलोड करें।(पासवर्ड  “sonalimichal.com” है",
+            description: "हम आपकी सारी ली हुई फोटोज़ देखना चाहते हैं!<br><br>कृपया नीचे दिए गए बटन से अपनी सारी तस्वीरें गैलरी में अपलोड करें।(पासवर्ड  “sonalimichal.com” है<br><br>नीचे आपको विभिन्न आयोजनों के लिए अलग-अलग गैलरी मिलेंगी",
+            uploadText: "अपलोड करें",
+            buttonText: "गैलरी देखें",
             events: [
                 {
                     title: "जग्गो गैलरी", description: "बेलिस हाउस में जग्गो के लिए ली गई सभी तस्वीरें और वीडियो", url: "https://immich.coolbigbear.com/s/jaggo"
