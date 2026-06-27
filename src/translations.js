@@ -28,7 +28,7 @@ export const translations = {
                     title: "Mandap Gallery", description: "All the professional images and videos taken at the Mandap event at the Slough Hindu Temple", url: "https://immich.coolbigbear.com/s/mandap"
                 },
                 {
-                    title: "Hedsor House Gallery", description: "All the professional photos and videos from our wedding at Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                    title: "Hedsor House Gallery", description: "All the professional photos and videos from our wedding at Hedsor House", url: "https://immich.coolbigbear.com/s/hedsor"
                 },
                 {
                     title: "Hedsor House Photobooth", description: "All the images from our amazing photo booth!", url: "https://immich.coolbigbear.com/share/L_riqPULMNb1PNV9RofB0NCPgYhewKjc7ITtUYcKRS4MeRtSJtX_KMuW8xaAceAtVqc"
@@ -336,7 +336,7 @@ export const translations = {
                     title: "Galeria Mandap", description: "Wszystkie profesjonalne zdjęcia i filmy wykonane podczas wydarzenia Mandap w świątyni hinduistycznej w Slough", url: "https://immich.coolbigbear.com/s/mandap"
                 },
                 {
-                    title: "Galeria Hedsor House", description: "Wszystkie profesjonalne zdjęcia i filmy z naszego ślubu w Hedsor House", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                    title: "Galeria Hedsor House", description: "Wszystkie profesjonalne zdjęcia i filmy z naszego ślubu w Hedsor House", url: "big"
                 },
                 {
                     title: "Galeria z fotobudki", description: "Wszystkie zdjęcia z naszej niesamowitej fotobudki!", url: "https://immich.coolbigbear.com/s/photobooth"
@@ -508,7 +508,7 @@ export const translations = {
                     title: "मंडप गैलरी", description: "स्लो हिंदू मंदिर में विवाह समारोह के दौरान ली गई सभी तस्वीरें और वीडियो", url: "https://immich.coolbigbear.com/s/mandap"
                 },
                 {
-                    title: "हेड्सोर हाउस गैलरी", description: "हेड्सोर हाउस में हमारी शादी की सभी तस्वीरें और वीडियो", url: "https://bigdayproductions.pic-time.com/MkAFicFnvGxLN"
+                    title: "हेड्सोर हाउस गैलरी", description: "हेड्सोर हाउस में हमारी शादी की सभी तस्वीरें और वीडियो", url: "https://immich.coolbigbear.com/s/hedsor"
                 },
                 {
                     title: "फोटो बूथ गैलरी", description: "सभी तस्वीरें हमारे अद्भुत फोटो बूथ से ली गई हैं!", url: "https://immich.coolbigbear.com/s/photobooth"
